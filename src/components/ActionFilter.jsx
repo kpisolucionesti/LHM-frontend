@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, createTheme, ThemeProvider, ToggleButton, ToggleButtonGroup } from "@mui/material"
+import { createTheme, ThemeProvider, ToggleButton, ToggleButtonGroup } from "@mui/material"
 import { useEffect, useState } from "react"
 
 const ActionFilter = ({ handleFilterStatus }) => {
@@ -39,6 +39,7 @@ const ActionFilter = ({ handleFilterStatus }) => {
             value={selected}
             exclusive
             onChange={handleSelected}
+            size="small"
         >
             <ToggleButton value=''>Todos</ToggleButton>
             <ToggleButton value='No Facturado'>No Facturado</ToggleButton>
@@ -46,13 +47,6 @@ const ActionFilter = ({ handleFilterStatus }) => {
             <ToggleButton value='Cobrado'>Cobrado</ToggleButton>
             <ToggleButton value='Liquidado'>Liquidado</ToggleButton>
         </ToggleButtonGroup>
-        {/* <ButtonGroup>
-            <Button variant="contained" color='all' onClick={() => handleFilterStatus("")} >Todos</Button>
-            <Button variant="contained" color="error" onClick={() => handleFilterStatus("No Facturado")} >No Facturado</Button>
-            <Button variant="contained" color="warning" onClick={() => handleFilterStatus("Facturado")} >Facturado</Button>
-            <Button variant="contained" color="primary" onClick={() => handleFilterStatus("Cobrado")} >Cobrado</Button>
-            <Button variant="contained" color="success" onClick={() => handleFilterStatus("Liquidado")} >Liquidado</Button>
-        </ButtonGroup> */}
     </ThemeProvider>
     )
 }

@@ -3,9 +3,10 @@ import { Grid } from "@mui/material";
 import MainTable from "./MainTable";
 import { tableData  } from "../data";
 import ProfileCard from "./ProfileCard";
+import MenuBar from "./commons/Menu";
+import UserContext, { user } from "../context/user-context";
 
 const MainLayout = () => {
-    const [doctor, setDoctor] =  useState('357')
     const [data, setData] = useState([])
 
     
@@ -14,18 +15,22 @@ const MainLayout = () => {
             return index === tableData.findIndex(o => obj.account === o.account && obj.code === o.code)
         })
         setData(uniqueData)
-    },[doctor])
+    },[])
     
+    console.log(data)
 
     return(
-        <Grid container spacing={2}>
-            <Grid item xs={3}>
-                <ProfileCard doctor={doctor} />
+        <UserContext.Provider value={{ user }}>
+            <MenuBar />
+            <Grid container spacing={2}>
+                <Grid item xs={3}>
+                    <ProfileCard />
+                </Grid>
+                <Grid item xs={9}>
+                    <MainTable tableData={data} />
+                </Grid>
             </Grid>
-            <Grid item xs={9}>
-                <MainTable doctor={doctor} tableData={data} />
-            </Grid>
-        </Grid>
+        </UserContext.Provider>
     )
 }
 

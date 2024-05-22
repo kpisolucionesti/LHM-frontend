@@ -27524,2771 +27524,2765 @@ export const tableData = [
     }
 ];
 
-export const accionistaTable = [
-    {
-        "id": "1",
-        "code": "112",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "ALFONZO GONZALEZ YASMIN MARGARITA",
-        "ci": "3988333"
-    },
-    {
-        "id": "2",
-        "code": "113",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "ANDRADE HERNANDEZ ALLAN SALVADOR",
-        "ci": "10819542"
-    },
-    {
-        "id": "3",
-        "code": "114",
-        "speciality": "UROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "ANGULO TEODORO ALBERTO",
-        "ci": "4885951"
-    },
-    {
-        "id": "4",
-        "code": "115",
-        "speciality": "CIRUGIA PLASTICA",
-        "category": "ACCIONISTA",
-        "fullName": "AYBAR BASICA CARLOS",
-        "ci": "3909349"
-    },
-    {
-        "id": "5",
-        "code": "116",
-        "speciality": "CIRUGIA PEDIATRICA",
-        "category": "ACCIONISTA",
-        "fullName": "AZA ORTIZ LUIS ENRIQUE",
-        "ci": "538556"
-    },
-    {
-        "id": "6",
-        "code": "118",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "BILBAO CONSENTINO EDUARDO",
-        "ci": "4883849"
-    },
-    {
-        "id": "7",
-        "code": "119",
-        "speciality": "MEDICINA INTERNA",
-        "category": "ACCIONISTA",
-        "fullName": "CABRE SANCHEZ CARMEN ALICIA",
-        "ci": "7830938"
-    },
-    {
-        "id": "8",
-        "code": "121",
-        "speciality": "CARDIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "CHAVERO GONZALEZ RAFAEL ANGEL",
-        "ci": "3398040"
-    },
-    {
-        "id": "9",
-        "code": "122",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "CHAVEZ VELASQUEZ LETTY JOSEFINA",
-        "ci": "3753449"
-    },
-    {
-        "id": "10",
-        "code": "123",
-        "speciality": "PEDIATRIA",
-        "category": "ACCIONISTA",
-        "fullName": "CHIRINOS DE AÑEZ DELIA DEL CARMEN",
-        "ci": "3917099"
-    },
-    {
-        "id": "11",
-        "code": "124",
-        "speciality": "NEFROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "CISNEROS COLOMBO ALEJANDRO JESUS",
-        "ci": "6873684"
-    },
-    {
-        "id": "12",
-        "code": "125",
-        "speciality": "NEUROCIRUGIA",
-        "category": "ACCIONISTA",
-        "fullName": "CONTRERAS CONTRERAS AURA YSMELDA",
-        "ci": "8104151"
-    },
-    {
-        "id": "13",
-        "code": "320",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "DE LA FUENTE DELGADO LILIANA RENEE",
-        "ci": "16034568"
-    },
-    {
-        "id": "14",
-        "code": "126",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "DINAMARCA ARANEDA SAMUEL RUBEN",
-        "ci": "13800119"
-    },
-    {
-        "id": "15",
-        "code": "127",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "FATTAH MOURAT ABDUL KARIM",
-        "ci": "6932980"
-    },
-    {
-        "id": "16",
-        "code": "128",
-        "speciality": "OFTALMOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "FERREIRO FIDALGO ROSA BENIGNA",
-        "ci": "5976223"
-    },
-    {
-        "id": "17",
-        "code": "129",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "FREIRE ANTUÑA FERNANDO SINESIO",
-        "ci": "6919191"
-    },
-    {
-        "id": "18",
-        "code": "130",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "GARBAN PARRA CRUZ CESAR",
-        "ci": "4768971"
-    },
-    {
-        "id": "19",
-        "code": "132",
-        "speciality": "ANESTESIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "GARCIA MUJICA AMADA DEL VALLE",
-        "ci": "4116316"
-    },
-    {
-        "id": "20",
-        "code": "133",
-        "speciality": "CIRUGIA PLASTICA",
-        "category": "ACCIONISTA",
-        "fullName": "GARRIDO MENDOZA ZAIDA JOSEFINA",
-        "ci": "5218973"
-    },
-    {
-        "id": "21",
-        "code": "134",
-        "speciality": "CIRUGIA ONCOLOGICA",
-        "category": "ACCIONISTA",
-        "fullName": "GODOY BRICEÑO ALI JOSUE",
-        "ci": "7871497"
-    },
-    {
-        "id": "22",
-        "code": "135",
-        "speciality": "ANESTESIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "GONZALEZ PALACIOS DAVID ERNESTO",
-        "ci": "8232371"
-    },
-    {
-        "id": "23",
-        "code": "137",
-        "speciality": "ESPECIAL",
-        "category": "ACCIONISTA",
-        "fullName": "GRIMAU ESTAY MERCEDES EUGENIA",
-        "ci": "11736762"
-    },
-    {
-        "id": "24",
-        "code": "138",
-        "speciality": "OFTALMOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "HARWAT MATHUSHIN ALICIA",
-        "ci": "3402201"
-    },
-    {
-        "id": "25",
-        "code": "139",
-        "speciality": "ESPECIAL",
-        "category": "ACCIONISTA",
-        "fullName": "HERNANDEZ MARIA EUGENIA",
-        "ci": "5962538"
-    },
-    {
-        "id": "26",
-        "code": "140",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "KNAPP IZAK PETER",
-        "ci": "6210746"
-    },
-    {
-        "id": "27",
-        "code": "142",
-        "speciality": "OTORRINOLARINGOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "LOSSADA LIVINALLI MARIANA",
-        "ci": "6661304"
-    },
-    {
-        "id": "28",
-        "code": "386",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MAGO ELYS DAVID",
-        "ci": "10945808"
-    },
-    {
-        "id": "29",
-        "code": "143",
-        "speciality": "NEUROCIRUGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MARQUEZ TOCUYO IGOR JOSE",
-        "ci": "4031850"
-    },
-    {
-        "id": "30",
-        "code": "144",
-        "speciality": "MEDICINA INTERNA",
-        "category": "ACCIONISTA",
-        "fullName": "MARTINEZ DE SALVETTI JENNY",
-        "ci": "13308958"
-    },
-    {
-        "id": "31",
-        "code": "145",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "MARTINEZ MORAN MAYDA DEL CARMEN",
-        "ci": "6028726"
-    },
-    {
-        "id": "32",
-        "code": "146",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "MARTINEZ MOTTOLA NORIS",
-        "ci": "2768213"
-    },
-    {
-        "id": "33",
-        "code": "147",
-        "speciality": "NEUMONOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MATA HURTADO ABDON ZENEN",
-        "ci": "11007836"
-    },
-    {
-        "id": "34",
-        "code": "148",
-        "speciality": "ANESTESIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MAVARE DE SCHULER KEYLA",
-        "ci": "5218822"
-    },
-    {
-        "id": "35",
-        "code": "151",
-        "speciality": "ODONTOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MORALES DE AMARISTA NACCY THA",
-        "ci": "2121561"
-    },
-    {
-        "id": "36",
-        "code": "322",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "MORALES TERAN ALEXANDER JAVIER",
-        "ci": "17015197"
-    },
-    {
-        "id": "37",
-        "code": "150",
-        "speciality": "ODONTOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MORALES VIVAS HAYWAT ROBERTO",
-        "ci": "9099495"
-    },
-    {
-        "id": "38",
-        "code": "270",
-        "speciality": "MEDICINA INTERNA",
-        "category": "ACCIONISTA",
-        "fullName": "MOTA FRANCIS GLADYS ELLEN",
-        "ci": "16616548"
-    },
-    {
-        "id": "39",
-        "code": "152",
-        "speciality": "HEMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "MUJICA GARCIA JOSE LUIS",
-        "ci": "8096019"
-    },
-    {
-        "id": "40",
-        "code": "153",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "NEGRIN MENDOZA JOSE ANTONIO",
-        "ci": "6431149"
-    },
-    {
-        "id": "41",
-        "code": "155",
-        "speciality": "DERMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "PADRON GUEVARA LUIS ARMANDO",
-        "ci": "2142195"
-    },
-    {
-        "id": "42",
-        "code": "324",
-        "speciality": "NEUMONOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "PALMIERI GUSTAVO",
-        "ci": "10332815"
-    },
-    {
-        "id": "43",
-        "code": "157",
-        "speciality": "CARDIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "PEREZ MORANTES SANDRA MARGARITA",
-        "ci": "7771911"
-    },
-    {
-        "id": "44",
-        "code": "276",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "PIÑERO DE ABREU MERFRA ALEXANDRA",
-        "ci": "13094930"
-    },
-    {
-        "id": "45",
-        "code": "158",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "RICCIARDELLI CIBELLO GAETANO",
-        "ci": "6508852"
-    },
-    {
-        "id": "46",
-        "code": "88",
-        "speciality": "PEDIATRIA",
-        "category": "ACCIONISTA",
-        "fullName": "RIVAS WALTER MINERVA",
-        "ci": "13023897"
-    },
-    {
-        "id": "47",
-        "code": "159",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "RIVERA BENCHIMOL EDUARDO DANIEL",
-        "ci": "5223667"
-    },
-    {
-        "id": "48",
-        "code": "160",
-        "speciality": "ANESTESIOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "RODRIGUEZ ALVAREZ CLAUDINA",
-        "ci": "5308057"
-    },
-    {
-        "id": "49",
-        "code": "161",
-        "speciality": "DERMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "RODRIGUEZ VICENTELLI EDGAR",
-        "ci": "2086541"
-    },
-    {
-        "id": "50",
-        "code": "162",
-        "speciality": "ODONTOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "ROJAS FRANCO\u001f\u001f JOSE ANIBAL",
-        "ci": "13693367"
-    },
-    {
-        "id": "51",
-        "code": "100",
-        "speciality": "REUMATOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "SALAZAR BLANCO SUSANA JOSEFINA",
-        "ci": "5875345"
-    },
-    {
-        "id": "52",
-        "code": "163",
-        "speciality": "PEDIATRIA",
-        "category": "ACCIONISTA",
-        "fullName": "SALAZAR SANCHEZ ELSIE ELENA",
-        "ci": "9513290"
-    },
-    {
-        "id": "53",
-        "code": "101",
-        "speciality": "PEDIATRIA",
-        "category": "ACCIONISTA",
-        "fullName": "SANCHEZ PIRELA SUMI LUCIA",
-        "ci": "13531641"
-    },
-    {
-        "id": "54",
-        "code": "329",
-        "speciality": "NEUROCIRUGIA",
-        "category": "ACCIONISTA",
-        "fullName": "SANGUINO PEREZ JOSE ARCADIO",
-        "ci": "18257586"
-    },
-    {
-        "id": "55",
-        "code": "165",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "ACCIONISTA",
-        "fullName": "SCHULER FEDERICO HUGO OSCAR",
-        "ci": "6165381"
-    },
-    {
-        "id": "56",
-        "code": "166",
-        "speciality": "OTORRINOLARINGOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "SOLORZANO DE REYES GENOVEVA",
-        "ci": "3281899"
-    },
-    {
-        "id": "57",
-        "code": "168",
-        "speciality": "PSICOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "SOTO CHEBLY MARY INMACULADA",
-        "ci": "5541414"
-    },
-    {
-        "id": "58",
-        "code": "336",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "TELLEZ CANRO NELSON GABRIEL",
-        "ci": "11953981"
-    },
-    {
-        "id": "59",
-        "code": "313",
-        "speciality": "NEUMONOLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "VALOA BORGES EDGAR YSMAEL",
-        "ci": "8828626"
-    },
-    {
-        "id": "60",
-        "code": "170",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "ACCIONISTA",
-        "fullName": "VELASQUEZ RAMOS MARIA DEL CARMEN",
-        "ci": "6555225"
-    },
-    {
-        "id": "61",
-        "code": "171",
-        "speciality": "PEDIATRIA",
-        "category": "ACCIONISTA",
-        "fullName": "VILLANI FREDA DOMENICO ANTONIO",
-        "ci": "5967767"
-    },
-    {
-        "id": "62",
-        "code": "172",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "ACCIONISTA",
-        "fullName": "WAGNER DE BERMUDEZ VILMA ANTONIETA",
-        "ci": "2146213"
-    },
-    {
-        "id": "63",
-        "code": "173",
-        "speciality": "MEDICINA CRITICA",
-        "category": "ACCIONISTA",
-        "fullName": "ZAMBRANO HERNANDEZ GERSON DANIEL",
-        "ci": "8351475"
-    }
-];
-
-export const cortesiaTable = [
+export const doctorTable = [
     {
         "id": "1",
         "code": "2",
-        "speciality": "CIRUGIA DE TORAX",
+        "specialist": "CIRUGIA DE TORAX",
         "category": "CORTESIA",
         "fullName": "ABREU ARENAS ANTONIO JOSE",
-        "ci": "6561941"
+        "ci": "6,561,941"
     },
     {
         "id": "2",
         "code": "364",
-        "speciality": "CIRUGIA GENERAL",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
         "fullName": "ACEVEDO RAMIREZ TULIO MIGUEL",
-        "ci": "19755291"
+        "ci": "19,755,291"
     },
     {
         "id": "3",
         "code": "392",
-        "speciality": "NEUROCIRUGIA",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
         "fullName": "ADELAIDE URANGA WALLENS HUMBERTO",
-        "ci": "4462555"
+        "ci": "4,462,555"
     },
     {
         "id": "4",
         "code": "391",
-        "speciality": "GASTROENTEROLOGIA",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
         "fullName": "AGNESE GONZALEZ FRANK ANTHONY",
-        "ci": "6508404"
+        "ci": "6,508,404"
     },
     {
         "id": "5",
         "code": "321",
-        "speciality": "MEDICINA INTERNA",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
         "fullName": "AGUILLON PETIT ISBERMY VERONICA",
-        "ci": "16941777"
+        "ci": "16,941,777"
     },
     {
         "id": "6",
         "code": "3",
-        "speciality": "TRAUMATOLOGIA",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
         "fullName": "ALFONSO BARRIOS JOSE ANTONIO",
-        "ci": "5143483"
+        "ci": "5,143,483"
     },
     {
         "id": "7",
-        "code": "6",
-        "speciality": "PEDIATRIA - PUERICULTURA",
-        "category": "CORTESIA",
-        "fullName": "ALVAREZ DE MARCANO ROSALBA",
-        "ci": "8800846"
+        "code": "112",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "ALFONZO GONZALEZ YASMIN MARGARITA",
+        "ci": "3,988,333"
     },
     {
         "id": "8",
-        "code": "4",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "ALVAREZ MEDINA GUSTAVO RAMON",
-        "ci": "8746080"
+        "code": "303",
+        "specialist": "CIRUGIA PEDIATRICA",
+        "category": "PARTICIPACIONES",
+        "fullName": "ALVAREZ WILFREDO ARDENIS",
+        "ci": "15,757,492"
     },
     {
         "id": "9",
         "code": "5",
-        "speciality": "TRAUMATOLOGIA",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
         "fullName": "ALVAREZ MEDINA RAMON ALEXANDE",
-        "ci": "10093277"
+        "ci": "10,093,277"
     },
     {
         "id": "10",
-        "code": "354",
-        "speciality": "MEDICINA GENERAL - FAMILIA",
+        "code": "6",
+        "specialist": "PEDIATRIA - PUERICULTURA",
         "category": "CORTESIA",
-        "fullName": "AMAYA RIVAS FERNANDO EMILIO",
-        "ci": "20079141"
+        "fullName": "ALVAREZ DE MARCANO ROSALBA",
+        "ci": "8,800,846"
     },
     {
         "id": "11",
-        "code": "7",
-        "speciality": "ORTOPEDIA FUNCIONAL",
+        "code": "4",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "AMOEDO CARRERO ALIZ ISABEL",
-        "ci": "11936430"
+        "fullName": "ALVAREZ MEDINA GUSTAVO RAMON",
+        "ci": "8,746,080"
     },
     {
         "id": "12",
-        "code": "185",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "354",
+        "specialist": "MEDICINA GENERAL - FAMILIA",
         "category": "CORTESIA",
-        "fullName": "AMUNDARAY RONDON ALBA COROMOTO",
-        "ci": "17471088"
+        "fullName": "AMAYA RIVAS FERNANDO EMILIO",
+        "ci": "20,079,141"
     },
     {
         "id": "13",
-        "code": "213",
-        "speciality": "GINECOLOGIA",
+        "code": "7",
+        "specialist": "ORTOPEDIA FUNCIONAL",
         "category": "CORTESIA",
-        "fullName": "AQUINO GOMEZ FRANCIA ISABEL",
-        "ci": "4356243"
+        "fullName": "AMOEDO CARRERO ALIZ ISABEL",
+        "ci": "11,936,430"
     },
     {
         "id": "14",
-        "code": "373",
-        "speciality": "HEMATOLOGIA",
+        "code": "185",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "ARAUJO CARINA DEL VALLE",
-        "ci": "13896433"
+        "fullName": "AMUNDARAY RONDON ALBA COROMOTO",
+        "ci": "17,471,088"
     },
     {
         "id": "15",
-        "code": "359",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "CORTESIA",
-        "fullName": "ARIAS BALLERINI EDWARD",
-        "ci": "11312990"
+        "code": "113",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "ANDRADE HERNANDEZ ALLAN SALVADOR",
+        "ci": "10,819,542"
     },
     {
         "id": "16",
-        "code": "360",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "CORTESIA",
-        "fullName": "ARIAS RODRIGUEZ EDUARDO ANTONIO",
-        "ci": "3120276"
+        "code": "114",
+        "specialist": "UROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "ANGULO TEODORO ALBERTO",
+        "ci": "4,885,951"
     },
     {
         "id": "17",
-        "code": "8",
-        "speciality": "INFECTOLOGIA",
+        "code": "213",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "ARIZA TEJEDOR DELIA",
-        "ci": "6931070"
+        "fullName": "AQUINO GOMEZ FRANCIA ISABEL",
+        "ci": "4,356,243"
     },
     {
         "id": "18",
-        "code": "312",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "373",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "AVILA ROJAS LISBETH DANELIS",
-        "ci": "14175928"
+        "fullName": "ARAUJO CARINA DEL VALLE",
+        "ci": "13,896,433"
     },
     {
         "id": "19",
-        "code": "10",
-        "speciality": "ODONTOLOGIA",
+        "code": "359",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "BAEZ ALLUP ADRIANA CECILIA",
-        "ci": "13694950"
+        "fullName": "ARIAS BALLERINI EDWARD",
+        "ci": "11,312,990"
     },
     {
         "id": "20",
-        "code": "358",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "360",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "BAEZ ALVARADO ERIC JOAN",
-        "ci": "15832295"
+        "fullName": "ARIAS RODRIGUEZ EDUARDO ANTONIO",
+        "ci": "3,120,276"
     },
     {
         "id": "21",
-        "code": "84",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "8",
+        "specialist": "INFECTOLOGIA",
         "category": "CORTESIA",
-        "fullName": "BAEZ GUIROLA RAMON",
-        "ci": "6973326"
+        "fullName": "ARIZA TEJEDOR DELIA",
+        "ci": "6,931,070"
     },
     {
         "id": "22",
-        "code": "11",
-        "speciality": "UROLOGIA",
+        "code": "312",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "BALLESTEROS ARRIETA CARLOS",
-        "ci": "12564878"
+        "fullName": "AVILA ROJAS LISBETH DANELIS",
+        "ci": "14,175,928"
     },
     {
         "id": "23",
-        "code": "382",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "BALZA CASTAÑEDA NEOMAR HERNAN",
-        "ci": "17059791"
+        "code": "115",
+        "specialist": "CIRUGIA PLASTICA",
+        "category": "ACCIONISTA",
+        "fullName": "AYBAR BASICA CARLOS",
+        "ci": "3,909,349"
     },
     {
         "id": "24",
-        "code": "211",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "CORTESIA",
-        "fullName": "BARELA NAVA ESTHER AMELIA",
-        "ci": "15721163"
+        "code": "116",
+        "specialist": "CIRUGIA PEDIATRICA",
+        "category": "ACCIONISTA",
+        "fullName": "AZA ORTIZ LUIS ENRIQUE",
+        "ci": "538,556"
     },
     {
         "id": "25",
-        "code": "227",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "10",
+        "specialist": "ODONTOLOGIA",
         "category": "CORTESIA",
-        "fullName": "BARELA NAVA MIRYAN AMELIA",
-        "ci": "16454046"
+        "fullName": "BAEZ ALLUP ADRIANA CECILIA",
+        "ci": "13,694,950"
     },
     {
         "id": "26",
-        "code": "254",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "358",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "BARRIOS ARMAS RAFAEL GUILLERMO",
-        "ci": "3396726"
+        "fullName": "BAEZ ALVARADO ERIC JOAN",
+        "ci": "15,832,295"
     },
     {
         "id": "27",
-        "code": "117",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "84",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "BAUDET LLANOS GERARDO ENRIQUE",
-        "ci": "4349342"
+        "fullName": "BAEZ GUIROLA RAMON",
+        "ci": "6,973,326"
     },
     {
         "id": "28",
-        "code": "12",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "11",
+        "specialist": "UROLOGIA",
         "category": "CORTESIA",
-        "fullName": "BECERRA LEON ARFILIO ERNESTO",
-        "ci": "11498170"
+        "fullName": "BALLESTEROS ARRIETA CARLOS",
+        "ci": "12,564,878"
     },
     {
         "id": "29",
-        "code": "304",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "382",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "BELLO BELLO EMILIO GENARO",
-        "ci": "13800378"
+        "fullName": "BALZA CASTAÑEDA NEOMAR HERNAN",
+        "ci": "17,059,791"
     },
     {
         "id": "30",
-        "code": "370",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "211",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "BORGES GARCIA ANDRES ELOY",
-        "ci": "4232268"
+        "fullName": "BARELA NAVA ESTHER AMELIA",
+        "ci": "15,721,163"
     },
     {
         "id": "31",
-        "code": "13",
-        "speciality": "FISIATRIA",
+        "code": "227",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "BRAVO CHAVEZ WENDY MERCEDES",
-        "ci": "10753687"
+        "fullName": "BARELA NAVA MIRYAN AMELIA",
+        "ci": "16,454,046"
     },
     {
         "id": "32",
-        "code": "402",
-        "speciality": "NEFROLOGIA",
+        "code": "254",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "BRAVO NOROÑO JULIA TIVISAY",
-        "ci": "7499514"
+        "fullName": "BARRIOS ARMAS RAFAEL GUILLERMO",
+        "ci": "3,396,726"
     },
     {
         "id": "33",
-        "code": "186",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "117",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "BREA HERRERA JOSE BERNARDO",
-        "ci": "15860971"
+        "fullName": "BAUDET LLANOS GERARDO ENRIQUE",
+        "ci": "4,349,342"
     },
     {
         "id": "34",
-        "code": "14",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "12",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "BRICEÑO MENDEZ MAIR",
-        "ci": "15833615"
+        "fullName": "BECERRA LEON ARFILIO ERNESTO",
+        "ci": "11,498,170"
     },
     {
         "id": "35",
-        "code": "374",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "304",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "BRIZUELA RAMIREZ ELIANA JOSEFINA",
-        "ci": "18406439"
+        "fullName": "BELLO BELLO EMILIO GENARO",
+        "ci": "13,800,378"
     },
     {
         "id": "36",
-        "code": "15",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "CABRERA LANGE LUIS GUILLERMO",
-        "ci": "10330022"
+        "code": "118",
+        "specialist": "TRAUMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "BILBAO CONSENTINO EDUARDO",
+        "ci": "4,883,849"
     },
     {
         "id": "37",
-        "code": "361",
-        "speciality": "NEUROLOGIA",
+        "code": "370",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "CAMACARO GUEDEZ MARIA AUXILIADORA",
-        "ci": "7231670"
+        "fullName": "BORGES GARCIA ANDRES ELOY",
+        "ci": "4,232,268"
     },
     {
         "id": "38",
-        "code": "307",
-        "speciality": "NEUROCIRUGIA",
+        "code": "13",
+        "specialist": "FISIATRIA",
         "category": "CORTESIA",
-        "fullName": "CAMPOS VELASQUEZ LUIS ALFONZO",
-        "ci": "13089712"
+        "fullName": "BRAVO CHAVEZ WENDY MERCEDES",
+        "ci": "10,753,687"
     },
     {
         "id": "39",
-        "code": "16",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "402",
+        "specialist": "NEFROLOGIA",
         "category": "CORTESIA",
-        "fullName": "CANDAMIO JOSE MANUEL",
-        "ci": "9118947"
+        "fullName": "BRAVO NOROÑO JULIA TIVISAY",
+        "ci": "7,499,514"
     },
     {
         "id": "40",
-        "code": "397",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "186",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "CARMEN ALICIA LUCES MALAVE",
-        "ci": "14420037"
+        "fullName": "BREA HERRERA JOSE BERNARDO",
+        "ci": "15,860,971"
     },
     {
         "id": "41",
-        "code": "400",
-        "speciality": "PEDIATRIA- PUERICULTOR",
+        "code": "14",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "CARRASQUEL MUÑOZ LUISA MARIA",
-        "ci": "22590649"
+        "fullName": "BRICEÑO MENDEZ MAIR",
+        "ci": "15,833,615"
     },
     {
         "id": "42",
-        "code": "332",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "374",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "CARRERO MORA EDEIMA",
-        "ci": "16604204"
+        "fullName": "BRIZUELA RAMIREZ ELIANA JOSEFINA",
+        "ci": "18,406,439"
     },
     {
         "id": "43",
-        "code": "17",
-        "speciality": "GINECOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "CASO PAYARES GABRIELA ULADIMIR",
-        "ci": "6973012"
+        "code": "119",
+        "specialist": "MEDICINA INTERNA",
+        "category": "ACCIONISTA",
+        "fullName": "CABRE SANCHEZ CARMEN ALICIA",
+        "ci": "7,830,938"
     },
     {
         "id": "44",
-        "code": "18",
-        "speciality": "FISIATRIA",
+        "code": "15",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "CASTELLANOS VILLEGAS MAYNEL",
-        "ci": "13473028"
+        "fullName": "CABRERA LANGE LUIS GUILLERMO",
+        "ci": "10,330,022"
     },
     {
         "id": "45",
-        "code": "274",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "361",
+        "specialist": "NEUROLOGIA",
         "category": "CORTESIA",
-        "fullName": "CASTILLO BUSTAMANTE JOHANA CAROLINA",
-        "ci": "13004091"
+        "fullName": "CAMACARO GUEDEZ MARIA AUXILIADORA",
+        "ci": "7,231,670"
     },
     {
         "id": "46",
-        "code": "19",
-        "speciality": "UROLOGIA",
+        "code": "307",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "CASTRO FRESCO DANIEL DAVID",
-        "ci": "15165918"
+        "fullName": "CAMPOS VELASQUEZ LUIS ALFONZO",
+        "ci": "13,089,712"
     },
     {
         "id": "47",
-        "code": "120",
-        "speciality": "NEFROLOGIA PEDIATRICA",
+        "code": "16",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "CAVIEDES ROBLES NURY DEL CARMEN",
-        "ci": "6506570"
+        "fullName": "CANDAMIO JOSE MANUEL",
+        "ci": "9,118,947"
     },
     {
         "id": "48",
-        "code": "20",
-        "speciality": "MEDICINA INTERNA",
+        "code": "397",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "CHIRINOS BRIZUELA ALEXIS RAMON",
-        "ci": "4137271"
+        "fullName": "CARMEN ALICIA LUCES MALAVE",
+        "ci": "14,420,037"
     },
     {
         "id": "49",
-        "code": "21",
-        "speciality": "GINECOLOGIA",
+        "code": "400",
+        "specialist": "PEDIATRIA- PUERICULTOR",
         "category": "CORTESIA",
-        "fullName": "CHONA DE ARMAS ELENA",
-        "ci": "16815911"
+        "fullName": "CARRASQUEL MUÑOZ LUISA MARIA",
+        "ci": "22,590,649"
     },
     {
         "id": "50",
-        "code": "22",
-        "speciality": "HEMATOLOGIA",
+        "code": "332",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "CHONA DE ARMAS ZULAY NOHEMI",
-        "ci": "11742082"
+        "fullName": "CARRERO MORA EDEIMA",
+        "ci": "16,604,204"
     },
     {
         "id": "51",
-        "code": "267",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "17",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "CIALONI PINTO DANIELA ALESSANDRA",
-        "ci": "14535709"
+        "fullName": "CASO PAYARES GABRIELA ULADIMIR",
+        "ci": "6,973,012"
     },
     {
         "id": "52",
-        "code": "333",
-        "speciality": "NUTRICION",
+        "code": "18",
+        "specialist": "FISIATRIA",
         "category": "CORTESIA",
-        "fullName": "CIANCIA ANGERAMI MARIA ANTONIETA",
-        "ci": "6162403"
+        "fullName": "CASTELLANOS VILLEGAS MAYNEL",
+        "ci": "13,473,028"
     },
     {
         "id": "53",
-        "code": "23",
-        "speciality": "NEUMOLOGIA",
+        "code": "274",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "COLMENARES SARMIENTO HAYDEE",
-        "ci": "6485720"
+        "fullName": "CASTILLO BUSTAMANTE JOHANA CAROLINA",
+        "ci": "13,004,091"
     },
     {
         "id": "54",
-        "code": "271",
-        "speciality": "MEDICINA INTERNA",
+        "code": "19",
+        "specialist": "UROLOGIA",
         "category": "CORTESIA",
-        "fullName": "CORDERO BLANCO MARILIN JOSEFINA",
-        "ci": "7529171"
+        "fullName": "CASTRO FRESCO DANIEL DAVID",
+        "ci": "15,165,918"
     },
     {
         "id": "55",
-        "code": "387",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "120",
+        "specialist": "NEFROLOGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "CORREA MARISOL",
-        "ci": "4362280"
+        "fullName": "CAVIEDES ROBLES NURY DEL CARMEN",
+        "ci": "6,506,570"
     },
     {
         "id": "56",
-        "code": "24",
-        "speciality": "CIRUGIA ONCOLOGICA",
-        "category": "CORTESIA",
-        "fullName": "DA CUNHA COSME MARIBEL LISSET",
-        "ci": "13132151"
+        "code": "121",
+        "specialist": "CARDIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "CHAVERO GONZALEZ RAFAEL ANGEL",
+        "ci": "3,398,040"
     },
     {
         "id": "57",
-        "code": "25",
-        "speciality": "OFTALMOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "DE GUEVARA PULIDO ROSA",
-        "ci": "3665227"
+        "code": "122",
+        "specialist": "TRAUMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "CHAVEZ VELASQUEZ LETTY JOSEFINA",
+        "ci": "3,753,449"
     },
     {
         "id": "58",
-        "code": "26",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "20",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "DE LA ROSA PEREZ ZORAIDA VERONICA",
-        "ci": "6682029"
+        "fullName": "CHIRINOS BRIZUELA ALEXIS RAMON",
+        "ci": "4,137,271"
     },
     {
         "id": "59",
-        "code": "27",
-        "speciality": "PEDIATRIA",
-        "category": "CORTESIA",
-        "fullName": "DECENA LOPEZ MEYDELL DEL CARMEN",
-        "ci": "8258498"
+        "code": "123",
+        "specialist": "PEDIATRIA",
+        "category": "ACCIONISTA",
+        "fullName": "CHIRINOS DE AÑEZ DELIA DEL CARMEN",
+        "ci": "3,917,099"
     },
     {
         "id": "60",
-        "code": "253",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "21",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "DELGADO ROMAN ZAHIRA DEL CARMEN",
-        "ci": "3943303"
+        "fullName": "CHONA DE ARMAS ELENA",
+        "ci": "16,815,911"
     },
     {
         "id": "61",
-        "code": "389",
-        "speciality": "CIRUGIA DE TORAX",
+        "code": "22",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "DELGADO TAMAYO FRANZEL LUIS",
-        "ci": "12877182"
+        "fullName": "CHONA DE ARMAS ZULAY NOHEMI",
+        "ci": "11,742,082"
     },
     {
         "id": "62",
-        "code": "309",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "267",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "DIAZ GOMEZ MARIALY ANDREINA",
-        "ci": "15372012"
+        "fullName": "CIALONI PINTO DANIELA ALESSANDRA",
+        "ci": "14,535,709"
     },
     {
         "id": "63",
-        "code": "394",
-        "speciality": "ANESTESIOLOGIA",
+        "code": "333",
+        "specialist": "NUTRICION",
         "category": "CORTESIA",
-        "fullName": "DOMINGUEZ GUTIERREZ MIGUEL LEANDRO",
-        "ci": "17299252"
+        "fullName": "CIANCIA ANGERAMI MARIA ANTONIETA",
+        "ci": "6,162,403"
     },
     {
         "id": "64",
-        "code": "301",
-        "speciality": "CIRUGIA ONCOLOGICA",
-        "category": "CORTESIA",
-        "fullName": "DOS SANTOS GALINDO MARIA VERONICA",
-        "ci": "12761746"
+        "code": "124",
+        "specialist": "NEFROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "CISNEROS COLOMBO ALEJANDRO JESUS",
+        "ci": "6,873,684"
     },
     {
         "id": "65",
-        "code": "28",
-        "speciality": "CARDIOLOGIA",
+        "code": "23",
+        "specialist": "NEUMOLOGIA",
         "category": "CORTESIA",
-        "fullName": "DUEÑES RUIZ JEAN CARLOS",
-        "ci": "14921056"
+        "fullName": "COLMENARES SARMIENTO HAYDEE",
+        "ci": "6,485,720"
     },
     {
         "id": "66",
-        "code": "29",
-        "speciality": "NEUROCIRUGIA",
-        "category": "CORTESIA",
-        "fullName": "DURAN CARRILLO FRANZ ALBERTO",
-        "ci": "6973431"
+        "code": "125",
+        "specialist": "NEUROCIRUGIA",
+        "category": "ACCIONISTA",
+        "fullName": "CONTRERAS CONTRERAS AURA YSMELDA",
+        "ci": "8,104,151"
     },
     {
         "id": "67",
-        "code": "30",
-        "speciality": "PEDIATRIA- PUERICULTOR",
+        "code": "271",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "DURAN MALDONADO MIRIAM TIBISAY",
-        "ci": "6219273"
+        "fullName": "CORDERO BLANCO MARILIN JOSEFINA",
+        "ci": "7,529,171"
     },
     {
         "id": "68",
-        "code": "31",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "387",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "ECHENAGUCIA MEDINA FRANCISCO",
-        "ci": "3516859"
+        "fullName": "CORREA MARISOL",
+        "ci": "4,362,280"
     },
     {
         "id": "69",
-        "code": "263",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "24",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "ECHENIQUE ZURITA PATRICIA ZURECHE",
-        "ci": "17742733"
+        "fullName": "DA CUNHA COSME MARIBEL LISSET",
+        "ci": "13,132,151"
     },
     {
         "id": "70",
-        "code": "393",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "25",
+        "specialist": "OFTALMOLOGIA",
         "category": "CORTESIA",
-        "fullName": "EMAN RODRIGUEZ MANUEL ENRIQUE",
-        "ci": "4353932"
+        "fullName": "DE GUEVARA PULIDO ROSA",
+        "ci": "3,665,227"
     },
     {
         "id": "71",
-        "code": "32",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "ESCRIBENS CARRIZALEZ JORGE ELIECER",
-        "ci": "4579753"
+        "code": "320",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "DE LA FUENTE DELGADO LILIANA RENEE",
+        "ci": "16,034,568"
     },
     {
         "id": "72",
-        "code": "377",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "26",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "FALCON BRAVO SUHAIL PASTORA",
-        "ci": "11599332"
+        "fullName": "DE LA ROSA PEREZ ZORAIDA VERONICA",
+        "ci": "6,682,029"
     },
     {
         "id": "73",
-        "code": "343",
-        "speciality": "PEDIATRIA",
+        "code": "27",
+        "specialist": "PEDIATRIA",
         "category": "CORTESIA",
-        "fullName": "FARIAS MOSQUERA ROBERT JULIAN",
-        "ci": "6377324"
+        "fullName": "DECENA LOPEZ MEYDELL DEL CARMEN",
+        "ci": "8,258,498"
     },
     {
         "id": "74",
-        "code": "319",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "253",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "FERNANDEZ RAMIREZ RAMON GERARDO",
-        "ci": "6911641"
+        "fullName": "DELGADO ROMAN ZAHIRA DEL CARMEN",
+        "ci": "3,943,303"
     },
     {
         "id": "75",
-        "code": "232",
-        "speciality": "PEDIATRIA",
+        "code": "389",
+        "specialist": "CIRUGIA DE TORAX",
         "category": "CORTESIA",
-        "fullName": "FERNANDEZ ZABALA BERMI MARIOLY",
-        "ci": "15703338"
+        "fullName": "DELGADO TAMAYO FRANZEL LUIS",
+        "ci": "12,877,182"
     },
     {
         "id": "76",
-        "code": "328",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "309",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "FIGUEIRA RIVERO GABRIEL ANTONIO",
-        "ci": "16380214"
+        "fullName": "DIAZ GOMEZ MARIALY ANDREINA",
+        "ci": "15,372,012"
     },
     {
         "id": "77",
-        "code": "316",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "FIGUEREDO HERNAN",
-        "ci": "2725584"
+        "code": "126",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "DINAMARCA ARANEDA SAMUEL RUBEN",
+        "ci": "13,800,119"
     },
     {
         "id": "78",
-        "code": "366",
-        "speciality": "TRAUMATOLOGIA - ORTOPEDICA",
+        "code": "394",
+        "specialist": "ANESTESIOLOGIA",
         "category": "CORTESIA",
-        "fullName": "FLORES LIBERATORE HECTOR JOSE",
-        "ci": "14200011"
+        "fullName": "DOMINGUEZ GUTIERREZ MIGUEL LEANDRO",
+        "ci": "17,299,252"
     },
     {
         "id": "79",
-        "code": "212",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "301",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "FLORES RUIZ GUILLERMO",
-        "ci": "5414466"
+        "fullName": "DOS SANTOS GALINDO MARIA VERONICA",
+        "ci": "12,761,746"
     },
     {
         "id": "80",
-        "code": "296",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "28",
+        "specialist": "CARDIOLOGIA",
         "category": "CORTESIA",
-        "fullName": "FONSECA RUIZ RICARDO ALEJANDRO",
-        "ci": "19378246"
+        "fullName": "DUEÑES RUIZ JEAN CARLOS",
+        "ci": "14,921,056"
     },
     {
         "id": "81",
-        "code": "288",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "29",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "FRANCO GUNDBERG CARLOS ALEJANDRO",
-        "ci": "6719904"
+        "fullName": "DURAN CARRILLO FRANZ ALBERTO",
+        "ci": "6,973,431"
     },
     {
         "id": "82",
-        "code": "404",
-        "speciality": "HEMATOLOGIA",
+        "code": "30",
+        "specialist": "PEDIATRIA- PUERICULTOR",
         "category": "CORTESIA",
-        "fullName": "GAMEZ ESCALONA JOSE ANTONIO",
-        "ci": "6915502"
+        "fullName": "DURAN MALDONADO MIRIAM TIBISAY",
+        "ci": "6,219,273"
     },
     {
         "id": "83",
-        "code": "357",
-        "speciality": "MEDICINA INTERNA",
+        "code": "31",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "GARCIA GARCIA JHOSBELIS LISETT",
-        "ci": "19162328"
+        "fullName": "ECHENAGUCIA MEDINA FRANCISCO",
+        "ci": "3,516,859"
     },
     {
         "id": "84",
-        "code": "207",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "263",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GARCIA GONZALEZ ALFREDO EMIRO",
-        "ci": "13487958"
+        "fullName": "ECHENIQUE ZURITA PATRICIA ZURECHE",
+        "ci": "17,742,733"
     },
     {
         "id": "85",
-        "code": "215",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "393",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "GARCIA LOPEZ JESUS EDUARDO",
-        "ci": "12247363"
+        "fullName": "EMAN RODRIGUEZ MANUEL ENRIQUE",
+        "ci": "4,353,932"
     },
     {
         "id": "86",
-        "code": "34",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "32",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GARCIA MACHADO JESUS ALBERTO",
-        "ci": "6197724"
+        "fullName": "ESCRIBENS CARRIZALEZ JORGE ELIECER",
+        "ci": "4,579,753"
     },
     {
         "id": "87",
-        "code": "314",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "377",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "GARCIA MARTINEZ JOSE MANUEL",
-        "ci": "15327911"
+        "fullName": "FALCON BRAVO SUHAIL PASTORA",
+        "ci": "11,599,332"
     },
     {
         "id": "88",
-        "code": "35",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "343",
+        "specialist": "PEDIATRIA",
         "category": "CORTESIA",
-        "fullName": "GARCIA ORTIZ SABRINA DESIREE",
-        "ci": "14535602"
+        "fullName": "FARIAS MOSQUERA ROBERT JULIAN",
+        "ci": "6,377,324"
     },
     {
         "id": "89",
-        "code": "36",
-        "speciality": "CIRUGIA PEDIATRICA",
-        "category": "CORTESIA",
-        "fullName": "GARCIA SKARLY ROSAMARIA",
-        "ci": "6139617"
+        "code": "127",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "FATTAH MOURAT ABDUL KARIM",
+        "ci": "6,932,980"
     },
     {
         "id": "90",
-        "code": "197",
-        "speciality": "PEDIATRIA - PUERICULTURA",
+        "code": "319",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "GARRIDO PEÑA NYDIA CAROLINA",
-        "ci": "16509256"
+        "fullName": "FERNANDEZ RAMIREZ RAMON GERARDO",
+        "ci": "6,911,641"
     },
     {
         "id": "91",
-        "code": "346",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "232",
+        "specialist": "PEDIATRIA",
         "category": "CORTESIA",
-        "fullName": "GEORGE MERIDA GERARDO RAFAEL",
-        "ci": "18603514"
+        "fullName": "FERNANDEZ ZABALA BERMI MARIOLY",
+        "ci": "15,703,338"
     },
     {
         "id": "92",
-        "code": "331",
-        "speciality": "PEDIATRIA",
-        "category": "CORTESIA",
-        "fullName": "GIANNANDREA ROMERO FRANCIS LUICEIDA",
-        "ci": "19401492"
+        "code": "128",
+        "specialist": "OFTALMOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "FERREIRO FIDALGO ROSA BENIGNA",
+        "ci": "5,976,223"
     },
     {
         "id": "93",
-        "code": "266",
-        "speciality": "UROLOGIA",
+        "code": "328",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "GIL ROMERO CARLOS GUILLERMO",
-        "ci": "9410078"
+        "fullName": "FIGUEIRA RIVERO GABRIEL ANTONIO",
+        "ci": "16,380,214"
     },
     {
         "id": "94",
-        "code": "258",
-        "speciality": "NEUROCIRUGIA",
+        "code": "316",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GOMEZ ALFONZO RITA CECILIA",
-        "ci": "16903552"
+        "fullName": "FIGUEREDO HERNAN",
+        "ci": "2,725,584"
     },
     {
         "id": "95",
-        "code": "265",
-        "speciality": "TRAUMATOLOGIA - ORTOPEDICA",
+        "code": "366",
+        "specialist": "TRAUMATOLOGIA - ORTOPEDICA",
         "category": "CORTESIA",
-        "fullName": "GOMEZ LUZARDO ELGA PAULINA",
-        "ci": "18269820"
+        "fullName": "FLORES LIBERATORE HECTOR JOSE",
+        "ci": "14,200,011"
     },
     {
         "id": "96",
-        "code": "376",
-        "speciality": "ANESTESIOLOGIA",
+        "code": "212",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GOMEZ MENESES ANDREA DEL VALLE",
-        "ci": "20710829"
+        "fullName": "FLORES RUIZ GUILLERMO",
+        "ci": "5,414,466"
     },
     {
         "id": "97",
-        "code": "37",
-        "speciality": "NEUROCIRUGIA",
+        "code": "296",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GOMEZ SOBI NATASCHA",
-        "ci": "12626007"
+        "fullName": "FONSECA RUIZ RICARDO ALEJANDRO",
+        "ci": "19,378,246"
     },
     {
         "id": "98",
-        "code": "244",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "288",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "GONCALVEZ YVONE",
-        "ci": "8746484"
+        "fullName": "FRANCO GUNDBERG CARLOS ALEJANDRO",
+        "ci": "6,719,904"
     },
     {
         "id": "99",
-        "code": "273",
-        "speciality": "MEDICINA INTERNA",
-        "category": "CORTESIA",
-        "fullName": "GONZALEZ CALDERON MARIA DE LOS ANGELES",
-        "ci": "18297792"
+        "code": "129",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "FREIRE ANTUÑA FERNANDO SINESIO",
+        "ci": "6,919,191"
     },
     {
         "id": "100",
-        "code": "395",
-        "speciality": "MEDICINA INTERNA",
+        "code": "404",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "GONZALEZ GALAVIS ADORAIM",
-        "ci": "19547217"
+        "fullName": "GAMEZ ESCALONA JOSE ANTONIO",
+        "ci": "6,915,502"
     },
     {
         "id": "101",
-        "code": "367",
-        "speciality": "CIRUJANO GENERAL",
-        "category": "CORTESIA",
-        "fullName": "GONZALEZ HEREDIA LILIHER JOSE",
-        "ci": "20406279"
+        "code": "130",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "GARBAN PARRA CRUZ CESAR",
+        "ci": "4,768,971"
     },
     {
         "id": "102",
-        "code": "206",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "36",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "GONZALEZ TORREALBA ERIKA JOSEFINA",
-        "ci": "18219891"
+        "fullName": "GARCIA SKARLY ROSAMARIA",
+        "ci": "6,139,617"
     },
     {
         "id": "103",
-        "code": "362",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "357",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "GOTERA GONZALEZ GUSTAVO JOSE",
-        "ci": "9114779"
+        "fullName": "GARCIA GARCIA JHOSBELIS LISETT",
+        "ci": "19,162,328"
     },
     {
         "id": "104",
-        "code": "222",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "207",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "GRATEROL MARITZA ELENA",
-        "ci": "4273712"
+        "fullName": "GARCIA GONZALEZ ALFREDO EMIRO",
+        "ci": "13,487,958"
     },
     {
         "id": "105",
-        "code": "259",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "215",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "GRIMAU ESTAY CLAUDIA PAZ",
-        "ci": "11566281"
+        "fullName": "GARCIA LOPEZ JESUS EDUARDO",
+        "ci": "12,247,363"
     },
     {
         "id": "106",
-        "code": "245",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "34",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "GUERRA RELVAS ROSYLENA CAROLINA",
-        "ci": "14874720"
+        "fullName": "GARCIA MACHADO JESUS ALBERTO",
+        "ci": "6,197,724"
     },
     {
         "id": "107",
-        "code": "246",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "314",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "GUEVARA MARTINEZ JENNY ROSARIO",
-        "ci": "16248252"
+        "fullName": "GARCIA MARTINEZ JOSE MANUEL",
+        "ci": "15,327,911"
     },
     {
         "id": "108",
-        "code": "272",
-        "speciality": "MEDICINA INTERNA",
-        "category": "CORTESIA",
-        "fullName": "GUEVARA RODRIGUEZ MANUEL ALEJANDRO",
-        "ci": "18179602"
+        "code": "132",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "GARCIA MUJICA AMADA DEL VALLE",
+        "ci": "4,116,316"
     },
     {
         "id": "109",
-        "code": "338",
-        "speciality": "MEDICINA OCUPACIONAL Y DE TRAB",
+        "code": "35",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "GUZMAN CISNEROS BELKYS RAQUEL",
-        "ci": "6858077"
+        "fullName": "GARCIA ORTIZ SABRINA DESIREE",
+        "ci": "14,535,602"
     },
     {
         "id": "110",
-        "code": "372",
-        "speciality": "HEMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "HENNIG GONZALEZ HELEN ELICET",
-        "ci": "16010288"
+        "code": "133",
+        "specialist": "CIRUGIA PLASTICA",
+        "category": "ACCIONISTA",
+        "fullName": "GARRIDO MENDOZA ZAIDA JOSEFINA",
+        "ci": "5,218,973"
     },
     {
         "id": "111",
-        "code": "41",
-        "speciality": "PEDIATRIA",
+        "code": "197",
+        "specialist": "PEDIATRIA - PUERICULTURA",
         "category": "CORTESIA",
-        "fullName": "HERNANDEZ BRICEÑO IRMA DEL VALLE",
-        "ci": "9304357"
+        "fullName": "GARRIDO PEÑA NYDIA CAROLINA",
+        "ci": "16,509,256"
     },
     {
         "id": "112",
-        "code": "262",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "346",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "HERNANDEZ CASTILLO RUBEN DAVID RAFAEL",
-        "ci": "6913513"
+        "fullName": "GEORGE MERIDA GERARDO RAFAEL",
+        "ci": "18,603,514"
     },
     {
         "id": "113",
-        "code": "42",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "331",
+        "specialist": "PEDIATRIA",
         "category": "CORTESIA",
-        "fullName": "HERNANDEZ MANTELLINI PABLO",
-        "ci": "2110578"
+        "fullName": "GIANNANDREA ROMERO FRANCIS LUICEIDA",
+        "ci": "19,401,492"
     },
     {
         "id": "114",
-        "code": "43",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "266",
+        "specialist": "UROLOGIA",
         "category": "CORTESIA",
-        "fullName": "HERNANDEZ PIÑERO GONZALO ENRIQUE",
-        "ci": "3753915"
+        "fullName": "GIL ROMERO CARLOS GUILLERMO",
+        "ci": "9,410,078"
     },
     {
         "id": "115",
-        "code": "291",
-        "speciality": "MEDICINA INTERNA",
-        "category": "CORTESIA",
-        "fullName": "HERNANDEZ RAMIREZ SALVANY DEL VALLE",
-        "ci": "18667404"
+        "code": "134",
+        "specialist": "CIRUGIA ONCOLOGICA",
+        "category": "ACCIONISTA",
+        "fullName": "GODOY BRICEÑO ALI JOSUE",
+        "ci": "7,871,497"
     },
     {
         "id": "116",
-        "code": "275",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "37",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "HOLLEBECQ DE COELLO ANA MARGARITA FRANCESA",
-        "ci": "7105553"
+        "fullName": "GOMEZ SOBI NATASCHA",
+        "ci": "12,626,007"
     },
     {
         "id": "117",
-        "code": "277",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "258",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "HURTADO HERRERA ANGEL ROLANDO",
-        "ci": "10337813"
+        "fullName": "GOMEZ ALFONZO RITA CECILIA",
+        "ci": "16,903,552"
     },
     {
         "id": "118",
-        "code": "44",
-        "speciality": "GINECOLOGIA",
+        "code": "265",
+        "specialist": "TRAUMATOLOGIA - ORTOPEDICA",
         "category": "CORTESIA",
-        "fullName": "HURTADO SIRIT PEDRO",
-        "ci": "5297842"
+        "fullName": "GOMEZ LUZARDO ELGA PAULINA",
+        "ci": "18,269,820"
     },
     {
         "id": "119",
-        "code": "45",
-        "speciality": "GINECOLOGIA",
+        "code": "376",
+        "specialist": "ANESTESIOLOGIA",
         "category": "CORTESIA",
-        "fullName": "JAIME AVILA BEATRIZ ELENA",
-        "ci": "5536903"
+        "fullName": "GOMEZ MENESES ANDREA DEL VALLE",
+        "ci": "20,710,829"
     },
     {
         "id": "120",
-        "code": "46",
-        "speciality": "NEUMOLOGIA",
+        "code": "244",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "JIMENEZ LIBARDO",
-        "ci": "15671555"
+        "fullName": "GONCALVEZ YVONE",
+        "ci": "8,746,484"
     },
     {
         "id": "121",
-        "code": "398",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "273",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "JOSE MIGUEL NUÑEZ",
-        "ci": "19673228"
+        "fullName": "GONZALEZ CALDERON MARIA DE LOS ANGELES",
+        "ci": "18,297,792"
     },
     {
         "id": "122",
-        "code": "252",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "395",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "KORGEMAGI TERIFE TALLIN KARIANE",
-        "ci": "14891619"
+        "fullName": "GONZALEZ GALAVIS ADORAIM",
+        "ci": "19,547,217"
     },
     {
         "id": "123",
-        "code": "285",
-        "speciality": "FISIOTERAPEUTA FISICA",
+        "code": "367",
+        "specialist": "CIRUJANO GENERAL",
         "category": "CORTESIA",
-        "fullName": "LANDAETA MORENO LOURDES DEL CARMEN",
-        "ci": "8809709"
+        "fullName": "GONZALEZ HEREDIA LILIHER JOSE",
+        "ci": "20,406,279"
     },
     {
         "id": "124",
-        "code": "318",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "CORTESIA",
-        "fullName": "LANDER MERCHAN GILBERTO ALEJANDRO",
-        "ci": "6504823"
+        "code": "135",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "GONZALEZ PALACIOS DAVID ERNESTO",
+        "ci": "8,232,371"
     },
     {
         "id": "125",
-        "code": "217",
-        "speciality": "OTORRINOLARINGOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "LARRAZABAL ARMANDO",
-        "ci": "6560420"
+        "code": "39",
+        "specialist": "OTORRINOLARINGOLOGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "GONZALEZ RISQUEZ CARLA GABRIELA",
+        "ci": "12,671,607"
     },
     {
         "id": "126",
-        "code": "345",
-        "speciality": "CIRUGIA DE TORAX",
+        "code": "206",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "LEAL VAILLANT ZORAIDA BELEN",
-        "ci": "10517302"
+        "fullName": "GONZALEZ TORREALBA ERIKA JOSEFINA",
+        "ci": "18,219,891"
     },
     {
         "id": "127",
-        "code": "335",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "362",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "LEON CASTILLO ADRIAN DAVID",
-        "ci": "17607374"
+        "fullName": "GOTERA GONZALEZ GUSTAVO JOSE",
+        "ci": "9,114,779"
     },
     {
         "id": "128",
-        "code": "347",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "222",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "LEONETT PEÑA ALFREDO",
-        "ci": "7684903"
+        "fullName": "GRATEROL MARITZA ELENA",
+        "ci": "4,273,712"
     },
     {
         "id": "129",
-        "code": "47",
-        "speciality": "HEMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "LIAS MARTINEZ LISSETH BEATRIZ",
-        "ci": "6517682"
+        "code": "137",
+        "specialist": "",
+        "category": "ACCIONISTA",
+        "fullName": "GRIMAU ESTAY MERCEDES EUGENIA",
+        "ci": "11,736,762"
     },
     {
         "id": "130",
-        "code": "48",
-        "speciality": "UROLOGIA",
+        "code": "259",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "LIUZZI STAMENA JUAN FRANCISCO",
-        "ci": "9878773"
+        "fullName": "GRIMAU ESTAY CLAUDIA PAZ",
+        "ci": "11,566,281"
     },
     {
         "id": "131",
-        "code": "49",
-        "speciality": "UROLOGIA",
-        "category": "CORTESIA",
-        "fullName": "LOPEZ PRIETO ALBERTO HENRIQUE",
-        "ci": "11741047"
+        "code": "40",
+        "specialist": "NEUROCIRUGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "GUERRA PAEZ RAFAEL DOMINGO",
+        "ci": "7,123,271"
     },
     {
         "id": "132",
-        "code": "51",
-        "speciality": "GINECOLOGIA",
+        "code": "245",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "LORENZO VASQUEZ ANURIVIC",
-        "ci": "11262860"
+        "fullName": "GUERRA RELVAS ROSYLENA CAROLINA",
+        "ci": "14,874,720"
     },
     {
         "id": "133",
-        "code": "52",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "246",
+        "specialist": "CIRUJANO GENERAL",
         "category": "CORTESIA",
-        "fullName": "LOZADA URBANI JESUS ARMANDO",
-        "ci": "14121279"
+        "fullName": "GUEVARA MARTINEZ JENNY ROSARIO",
+        "ci": "16,248,252"
     },
     {
         "id": "134",
-        "code": "289",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "272",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "LUACES MARTINEZ JUAN ANTONIO",
-        "ci": "11740395"
+        "fullName": "GUEVARA RODRIGUEZ MANUEL ALEJANDRO",
+        "ci": "18,179,602"
     },
     {
         "id": "135",
-        "code": "257",
-        "speciality": "MEDICINA INTERNA",
+        "code": "338",
+        "specialist": "MEDICINA OCUPACIONAL Y DE TRAB",
         "category": "CORTESIA",
-        "fullName": "LUGO LOPEZ NELSYMAR HIRANDIS",
-        "ci": "17105622"
+        "fullName": "GUZMAN CISNEROS BELKYS RAQUEL",
+        "ci": "6,858,077"
     },
     {
         "id": "136",
-        "code": "284",
-        "speciality": "CIRUGIA DE TORAX",
-        "category": "CORTESIA",
-        "fullName": "LUNA SANABRIA HECTOR ALFREDO",
-        "ci": "17433650"
+        "code": "138",
+        "specialist": "OFTALMOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "HARWAT MATHUSHIN ALICIA",
+        "ci": "3,402,201"
     },
     {
         "id": "137",
-        "code": "388",
-        "speciality": "HEMATOLOGIA",
+        "code": "372",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MARCANO PULIDO YNES DEL CARMEN",
-        "ci": "10352419"
+        "fullName": "HENNIG GONZALEZ HELEN ELICET",
+        "ci": "16,010,288"
     },
     {
         "id": "138",
-        "code": "54",
-        "speciality": "GINECOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "MARQUEZ CONTRERAS DANIEL ANTONIO",
-        "ci": "12645033"
+        "code": "139",
+        "specialist": "",
+        "category": "ACCIONISTA",
+        "fullName": "HERNANDEZ MARIA EUGENIA",
+        "ci": "5,962,538"
     },
     {
         "id": "139",
-        "code": "55",
-        "speciality": "NEUROCIRUGIA",
+        "code": "41",
+        "specialist": "PEDIATRIA",
         "category": "CORTESIA",
-        "fullName": "MARQUEZ DELGADO ALEJANDRO",
-        "ci": "7445127"
+        "fullName": "HERNANDEZ BRICEÑO IRMA DEL VALLE",
+        "ci": "9,304,357"
     },
     {
         "id": "140",
-        "code": "53",
-        "speciality": "GINECOLOGIA",
+        "code": "262",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "MARQUEZ DIAZ CESAR AUGUSTO",
-        "ci": "9783726"
+        "fullName": "HERNANDEZ CASTILLO RUBEN DAVID RAFAEL",
+        "ci": "6,913,513"
     },
     {
         "id": "141",
-        "code": "57",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "42",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "MARRERO OLIVARES CARLOS RAUL",
-        "ci": "4083318"
+        "fullName": "HERNANDEZ MANTELLINI PABLO",
+        "ci": "2,110,578"
     },
     {
         "id": "142",
-        "code": "58",
-        "speciality": "ORTOPEDIA FUNCIONAL",
+        "code": "43",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MARTINEZ CONDE ALBERTO ANTONIO",
-        "ci": "5136643"
+        "fullName": "HERNANDEZ PIÑERO GONZALO ENRIQUE",
+        "ci": "3,753,915"
     },
     {
         "id": "143",
-        "code": "223",
-        "speciality": "",
+        "code": "291",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "MARTINEZ GONZALEZ MARGIE",
-        "ci": "4071472"
+        "fullName": "HERNANDEZ RAMIREZ SALVANY DEL VALLE",
+        "ci": "18,667,404"
     },
     {
         "id": "144",
-        "code": "59",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "275",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "MARTINEZ LATUFF PEDRO JOSE",
-        "ci": "2136042"
+        "fullName": "HOLLEBECQ DE COELLO ANA MARGARITA FRANCESA",
+        "ci": "7,105,553"
     },
     {
         "id": "145",
-        "code": "60",
-        "speciality": "GINECOLOGIA",
+        "code": "277",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MARTINEZ RIZZUTI PIAR FRANCISCO",
-        "ci": "6912892"
+        "fullName": "HURTADO HERRERA ANGEL ROLANDO",
+        "ci": "10,337,813"
     },
     {
         "id": "146",
-        "code": "224",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "44",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MAVARE TORRES JERRY M",
-        "ci": "5542491"
+        "fullName": "HURTADO SIRIT PEDRO",
+        "ci": "5,297,842"
     },
     {
         "id": "147",
-        "code": "381",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "45",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MEDINA BERECIARTU JOSE ANTONIO",
-        "ci": "5432594"
+        "fullName": "JAIME AVILA BEATRIZ ELENA",
+        "ci": "5,536,903"
     },
     {
         "id": "148",
-        "code": "349",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "46",
+        "specialist": "NEUMOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MEDINA PADRON NELSON ARTURO",
-        "ci": "4841960"
+        "fullName": "JIMENEZ LIBARDO",
+        "ci": "15,671,555"
     },
     {
         "id": "149",
-        "code": "61",
-        "speciality": "GINECOLOGIA",
+        "code": "398",
+        "specialist": "CIRUJANO GENERAL",
         "category": "CORTESIA",
-        "fullName": "MENDOZA RIVAS ALEXANDER OMAR",
-        "ci": "10339740"
+        "fullName": "JOSE MIGUEL NUÑEZ",
+        "ci": "19,673,228"
     },
     {
         "id": "150",
-        "code": "278",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "MENDOZA URRUTIA ALFREDO",
-        "ci": "3661981"
+        "code": "140",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "KNAPP IZAK PETER",
+        "ci": "6,210,746"
     },
     {
         "id": "151",
-        "code": "62",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "252",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "MERCHAN BURIEL JAVIER FRANCISCO",
-        "ci": "7922061"
+        "fullName": "KORGEMAGI TERIFE TALLIN KARIANE",
+        "ci": "14,891,619"
     },
     {
         "id": "152",
-        "code": "299",
-        "speciality": "NEFROLOGIA",
+        "code": "285",
+        "specialist": "FISIOTERAPEUTA FISICA",
         "category": "CORTESIA",
-        "fullName": "MIJARES DE VILLALOBOS TAMARA ROSARIO",
-        "ci": "5624981"
+        "fullName": "LANDAETA MORENO LOURDES DEL CARMEN",
+        "ci": "8,809,709"
     },
     {
         "id": "153",
-        "code": "226",
-        "speciality": "MEDICINA INTERNA",
+        "code": "318",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "MILANO DURAN ANGELA CINTLI",
-        "ci": "16996917"
+        "fullName": "LANDER MERCHAN GILBERTO ALEJANDRO",
+        "ci": "6,504,823"
     },
     {
         "id": "154",
-        "code": "315",
-        "speciality": "TRAUMATOLOGIA - ORTOPEDICA",
+        "code": "217",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MOGOLLON ALFREDO JOSE",
-        "ci": "9448323"
+        "fullName": "LARRAZABAL ARMANDO",
+        "ci": "6,560,420"
     },
     {
         "id": "155",
-        "code": "334",
-        "speciality": "NEUROCIRUGIA",
+        "code": "345",
+        "specialist": "CIRUGIA DE TORAX",
         "category": "CORTESIA",
-        "fullName": "MOGOLLON BENAVIDES CARLOS ALFREDO",
-        "ci": "19468485"
+        "fullName": "LEAL VAILLANT ZORAIDA BELEN",
+        "ci": "10,517,302"
     },
     {
         "id": "156",
-        "code": "63",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "335",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "MONASTERIO GABALDONI MARIA V",
-        "ci": "9411950"
+        "fullName": "LEON CASTILLO ADRIAN DAVID",
+        "ci": "17,607,374"
     },
     {
         "id": "157",
-        "code": "65",
-        "speciality": "ANATOMIA PATOLOGICA",
+        "code": "347",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "MORALES NIETO JOSE",
-        "ci": "517534"
+        "fullName": "LEONETT PEÑA ALFREDO",
+        "ci": "7,684,903"
     },
     {
         "id": "158",
-        "code": "248",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "47",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "MORALES SANCHEZ ANA KATIUSKA",
-        "ci": "14262862"
+        "fullName": "LIAS MARTINEZ LISSETH BEATRIZ",
+        "ci": "6,517,682"
     },
     {
         "id": "159",
-        "code": "66",
-        "speciality": "TRAUMATOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "MORENO PALACIOS ANDRES JOSE",
-        "ci": "4884217"
+        "code": "191",
+        "specialist": "REUMATOLOGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "LINARES CONTRERAS MARIA FERNANDA",
+        "ci": "14,851,372"
     },
     {
         "id": "160",
-        "code": "317",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "48",
+        "specialist": "UROLOGIA",
         "category": "CORTESIA",
-        "fullName": "MOTA FRANCIS NATALIA CAROLINA",
-        "ci": "18248127"
+        "fullName": "LIUZZI STAMENA JUAN FRANCISCO",
+        "ci": "9,878,773"
     },
     {
         "id": "161",
-        "code": "67",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "49",
+        "specialist": "UROLOGIA",
         "category": "CORTESIA",
-        "fullName": "MOYA ONTIVEROS JOHAN ADOLFO",
-        "ci": "13409852"
+        "fullName": "LOPEZ PRIETO ALBERTO HENRIQUE",
+        "ci": "11,741,047"
     },
     {
         "id": "162",
-        "code": "68",
-        "speciality": "CIRUGIA PEDIATRICA",
-        "category": "CORTESIA",
-        "fullName": "MUÑOZ ROSARIO ESOMYGLE",
-        "ci": "12929129"
+        "code": "50",
+        "specialist": "ORTOPEDIA FUNCIONAL",
+        "category": "PARTICIPACIONES",
+        "fullName": "LOPEZ MEDRANO GUSTAVO ADOLFO",
+        "ci": "13,459,060"
     },
     {
         "id": "163",
-        "code": "228",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "51",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "NACAD SIMON",
-        "ci": "6366599"
+        "fullName": "LORENZO VASQUEZ ANURIVIC",
+        "ci": "11,262,860"
     },
     {
         "id": "164",
-        "code": "229",
-        "speciality": "CIRUGIA PLASTICA",
-        "category": "CORTESIA",
-        "fullName": "NAVARRO YOSIME",
-        "ci": "11389849"
+        "code": "142",
+        "specialist": "OTORRINOLARINGOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "LOSSADA LIVINALLI MARIANA",
+        "ci": "6,661,304"
     },
     {
         "id": "165",
-        "code": "369",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "52",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "NAVAS DE ZAMBRANO ROSA NATALY",
-        "ci": "17629355"
+        "fullName": "LOZADA URBANI JESUS ARMANDO",
+        "ci": "14,121,279"
     },
     {
         "id": "166",
-        "code": "280",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "289",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "NAVAS FARFAN HUGO ANTONIO",
-        "ci": "5566968"
+        "fullName": "LUACES MARTINEZ JUAN ANTONIO",
+        "ci": "11,740,395"
     },
     {
         "id": "167",
-        "code": "283",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "257",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "NOYA VICENTE JOSE RAMON",
-        "ci": "12395545"
+        "fullName": "LUGO LOPEZ NELSYMAR HIRANDIS",
+        "ci": "17,105,622"
     },
     {
         "id": "168",
-        "code": "70",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "284",
+        "specialist": "CIRUGIA DE TORAX",
         "category": "CORTESIA",
-        "fullName": "OCHOA JOSE FRANCISCO",
-        "ci": "6818711"
+        "fullName": "LUNA SANABRIA HECTOR ALFREDO",
+        "ci": "17,433,650"
     },
     {
         "id": "169",
-        "code": "71",
-        "speciality": "NUTRICION",
-        "category": "CORTESIA",
-        "fullName": "OHARA MORAN MILDRED SILVANA",
-        "ci": "81602478"
+        "code": "386",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MAGO ELYS DAVID",
+        "ci": "10,945,808"
     },
     {
         "id": "170",
-        "code": "344",
-        "speciality": "NEFROLOGIA",
+        "code": "388",
+        "specialist": "HEMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "OLIVEROS LEONOR DEL CARMEN",
-        "ci": "8832504"
+        "fullName": "MARCANO PULIDO YNES DEL CARMEN",
+        "ci": "10,352,419"
     },
     {
         "id": "171",
-        "code": "72",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "54",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "ORTIZ DIAZ ALLISKAIR ANIBAL",
-        "ci": "9484440"
+        "fullName": "MARQUEZ CONTRERAS DANIEL ANTONIO",
+        "ci": "12,645,033"
     },
     {
         "id": "172",
-        "code": "383",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "55",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "OSORIO ROMERO TIBISAY ELENA",
-        "ci": "6897339"
+        "fullName": "MARQUEZ DELGADO ALEJANDRO",
+        "ci": "7,445,127"
     },
     {
         "id": "173",
-        "code": "233",
-        "speciality": "CIRUGIA CARDIOVASCULAR",
+        "code": "53",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "OSUNA CALDERON CARLOS ENRIQUE",
-        "ci": "8018378"
+        "fullName": "MARQUEZ DIAZ CESAR AUGUSTO",
+        "ci": "9,783,726"
     },
     {
         "id": "174",
-        "code": "73",
-        "speciality": "NUTRICION",
-        "category": "CORTESIA",
-        "fullName": "PALMA DIAZ JIMENA ANDREA",
-        "ci": "14509221"
+        "code": "56",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "MARQUEZ RUSSIAN YLEANA CAROLINA",
+        "ci": "16,226,517"
     },
     {
         "id": "175",
-        "code": "74",
-        "speciality": "GINECOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "PAZ ALVARADO FRANCISCO JOSE",
-        "ci": "6815839"
+        "code": "143",
+        "specialist": "NEUROCIRUGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MARQUEZ TOCUYO IGOR JOSE",
+        "ci": "4,031,850"
     },
     {
         "id": "176",
-        "code": "237",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "57",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "PECORELLI CAPOZZI ANGEL DAVID",
-        "ci": "14959643"
+        "fullName": "MARRERO OLIVARES CARLOS RAUL",
+        "ci": "4,083,318"
     },
     {
         "id": "177",
-        "code": "75",
-        "speciality": "GINECOLOGIA",
+        "code": "58",
+        "specialist": "ORTOPEDIA FUNCIONAL",
         "category": "CORTESIA",
-        "fullName": "PEÑALOZA BASTOS MARCOS A.",
-        "ci": "6208759"
+        "fullName": "MARTINEZ CONDE ALBERTO ANTONIO",
+        "ci": "5,136,643"
     },
     {
         "id": "178",
-        "code": "76",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "PEÑALOZA ZERPA NOEL ERNESTO",
-        "ci": "13128029"
+        "code": "144",
+        "specialist": "MEDICINA INTERNA",
+        "category": "ACCIONISTA",
+        "fullName": "MARTINEZ DE SALVETTI JENNY",
+        "ci": "13,308,958"
     },
     {
         "id": "179",
-        "code": "77",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "223",
+        "specialist": "",
         "category": "CORTESIA",
-        "fullName": "PEREIRA NUÑEZ ANA FRANCYS",
-        "ci": "12501312"
+        "fullName": "MARTINEZ GONZALEZ MARGIE",
+        "ci": "4,071,472"
     },
     {
         "id": "180",
-        "code": "78",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "59",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "PEREZ BRETT RAMON JOSE",
-        "ci": "2863678"
+        "fullName": "MARTINEZ LATUFF PEDRO JOSE",
+        "ci": "2,136,042"
     },
     {
         "id": "181",
-        "code": "208",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "CORTESIA",
-        "fullName": "PEREZ CORREA CLAUDIA VIRGINIA",
-        "ci": "11481070"
+        "code": "145",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "MARTINEZ MORAN MAYDA DEL CARMEN",
+        "ci": "6,028,726"
     },
     {
         "id": "182",
-        "code": "268",
-        "speciality": "CIRUGIA ONCOLOGICA",
-        "category": "CORTESIA",
-        "fullName": "PEREZ DIAZ GABRIEL ALEJANDRO",
-        "ci": "16543901"
+        "code": "146",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "MARTINEZ MOTTOLA NORIS",
+        "ci": "2,768,213"
     },
     {
         "id": "183",
-        "code": "79",
-        "speciality": "CARDIOLOGIA",
+        "code": "60",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "PEREZ LEON JEAN CARLOS",
-        "ci": "13267972"
+        "fullName": "MARTINEZ RIZZUTI PIAR FRANCISCO",
+        "ci": "6,912,892"
     },
     {
         "id": "184",
-        "code": "250",
-        "speciality": "REHABILITACION Y MEDICINA FISI",
-        "category": "CORTESIA",
-        "fullName": "PEREZ MENDOZA MAXLLOYS JEANETTE",
-        "ci": "13585859"
+        "code": "147",
+        "specialist": "NEUMONOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MATA HURTADO ABDON ZENEN",
+        "ci": "11,007,836"
     },
     {
         "id": "185",
-        "code": "310",
-        "speciality": "NEUROCIRUGIA",
-        "category": "CORTESIA",
-        "fullName": "PEROZO RON JOSE RAFAEL",
-        "ci": "16607812"
+        "code": "148",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MAVARE DE SCHULER KEYLA",
+        "ci": "5,218,822"
     },
     {
         "id": "186",
-        "code": "281",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "224",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "PINEDA VETENCOURT CLARA VIRGINIA",
-        "ci": "16583695"
+        "fullName": "MAVARE TORRES JERRY M",
+        "ci": "5,542,491"
     },
     {
         "id": "187",
-        "code": "396",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "381",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "PINO LOPEZ GIPSY MARIA",
-        "ci": "6928851"
+        "fullName": "MEDINA BERECIARTU JOSE ANTONIO",
+        "ci": "5,432,594"
     },
     {
         "id": "188",
-        "code": "200",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "PINTO CORDOVA ELIOMAR JOSE",
-        "ci": "16128481"
+        "code": "380",
+        "specialist": "UROLOGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "MEDINA COLINA JOSE ROSENDO",
+        "ci": "10,791,651"
     },
     {
         "id": "189",
-        "code": "282",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "349",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "PINTO PEREZ ABDELAZIZ GUSTAVO",
-        "ci": "4452397"
+        "fullName": "MEDINA PADRON NELSON ARTURO",
+        "ci": "4,841,960"
     },
     {
         "id": "190",
-        "code": "239",
-        "speciality": "ALERGOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "PLANCHARD RICARDO",
-        "ci": "5967043"
+        "code": "279",
+        "specialist": "OFTALMOLOGIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "MENDEZ DUNO MARISELA ANTONIETA",
+        "ci": "14,968,009"
     },
     {
         "id": "191",
-        "code": "240",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "61",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "PONTE SUCRE ALEJANDRO IGNACIO",
-        "ci": "6900646"
+        "fullName": "MENDOZA RIVAS ALEXANDER OMAR",
+        "ci": "10,339,740"
     },
     {
         "id": "192",
-        "code": "401",
-        "speciality": "OTORRINOLARINGOLOGIA",
+        "code": "278",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "PRATO RINCON PRISCILA",
-        "ci": "8989076"
+        "fullName": "MENDOZA URRUTIA ALFREDO",
+        "ci": "3,661,981"
     },
     {
         "id": "193",
-        "code": "190",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "62",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "QUEVEDO BONETTI CARLOS ALBERTO",
-        "ci": "14970406"
+        "fullName": "MERCHAN BURIEL JAVIER FRANCISCO",
+        "ci": "7,922,061"
     },
     {
         "id": "194",
-        "code": "80",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "299",
+        "specialist": "NEFROLOGIA",
         "category": "CORTESIA",
-        "fullName": "QUIJADA VERA DENNIS LOWELL",
-        "ci": "13511437"
+        "fullName": "MIJARES DE VILLALOBOS TAMARA ROSARIO",
+        "ci": "5,624,981"
     },
     {
         "id": "195",
-        "code": "219",
-        "speciality": "NEUROCIRUGIA",
+        "code": "226",
+        "specialist": "MEDICINA INTERNA",
         "category": "CORTESIA",
-        "fullName": "QUINTANA PAEZ LIWVEN",
-        "ci": "9679514"
+        "fullName": "MILANO DURAN ANGELA CINTLI",
+        "ci": "16,996,917"
     },
     {
         "id": "196",
-        "code": "81",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "315",
+        "specialist": "TRAUMATOLOGIA - ORTOPEDICA",
         "category": "CORTESIA",
-        "fullName": "QUINTERO GONZALEZ LIZ",
-        "ci": "9720253"
+        "fullName": "MOGOLLON ALFREDO JOSE",
+        "ci": "9,448,323"
     },
     {
         "id": "197",
-        "code": "82",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "334",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "QUINTERO LARROVERE MILAGRO",
-        "ci": "13284334"
+        "fullName": "MOGOLLON BENAVIDES CARLOS ALFREDO",
+        "ci": "19,468,485"
     },
     {
         "id": "198",
-        "code": "83",
-        "speciality": "CIRUGIA DE TORAX",
+        "code": "63",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "RAMIREZ RIVAS NELSON",
-        "ci": "2079949"
+        "fullName": "MONASTERIO GABALDONI MARIA V",
+        "ci": "9,411,950"
     },
     {
         "id": "199",
-        "code": "85",
-        "speciality": "GINECOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "RAMOS JEREZ KAROL GABRIELA",
-        "ci": "14813055"
+        "code": "64",
+        "specialist": "CIRUGIA PLASTICA",
+        "category": "PARTICIPACIONES",
+        "fullName": "MORA ARIAS HECTOR JOSE",
+        "ci": "8,839,238"
     },
     {
         "id": "200",
-        "code": "210",
-        "speciality": "ENDOCRINOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "RAMOS MAURELL ENRIQUE IVAN ANTONIO",
-        "ci": "15637664"
+        "code": "151",
+        "specialist": "ODONTOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MORALES DE AMARISTA NACCY THA",
+        "ci": "2,121,561"
     },
     {
         "id": "201",
-        "code": "194",
-        "speciality": "NEUROLOGIA PEDIATRICA",
+        "code": "65",
+        "specialist": "ANATOMIA PATOLOGICA",
         "category": "CORTESIA",
-        "fullName": "RANGEL RANGEL JOHN DILMER",
-        "ci": "17614397"
+        "fullName": "MORALES NIETO JOSE",
+        "ci": "517,534"
     },
     {
         "id": "202",
-        "code": "218",
-        "speciality": "",
+        "code": "248",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "RASTELLI BLANCO LEONARDO",
-        "ci": "9589690"
+        "fullName": "MORALES SANCHEZ ANA KATIUSKA",
+        "ci": "14,262,862"
     },
     {
         "id": "203",
-        "code": "297",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "RENDON CARRASQUEL VICTORIA GREGZAID",
-        "ci": "18012974"
+        "code": "322",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "MORALES TERAN ALEXANDER JAVIER",
+        "ci": "17,015,197"
     },
     {
         "id": "204",
-        "code": "323",
-        "speciality": "ANESTESIOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "REQUENA CAMEJO LISBETH JOSEFINA",
-        "ci": "12640022"
+        "code": "150",
+        "specialist": "ODONTOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MORALES VIVAS HAYWAT ROBERTO",
+        "ci": "9,099,495"
     },
     {
         "id": "205",
-        "code": "363",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "66",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "REYES CEDEÑO RINA ZAHINA DE JESUS",
-        "ci": "14852335"
+        "fullName": "MORENO PALACIOS ANDRES JOSE",
+        "ci": "4,884,217"
     },
     {
         "id": "206",
-        "code": "86",
-        "speciality": "GINECOLOGIA",
-        "category": "CORTESIA",
-        "fullName": "RIANI PONCE MARIA AMPARO",
-        "ci": "13557216"
+        "code": "270",
+        "specialist": "MEDICINA INTERNA",
+        "category": "ACCIONISTA",
+        "fullName": "MOTA FRANCIS GLADYS ELLEN",
+        "ci": "16,616,548"
     },
     {
         "id": "207",
-        "code": "260",
-        "speciality": "CIRUGIA PLASTICA",
+        "code": "317",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "RINCON DURAN NILYAN BEATRIZ",
-        "ci": "7722548"
+        "fullName": "MOTA FRANCIS NATALIA CAROLINA",
+        "ci": "18,248,127"
     },
     {
         "id": "208",
-        "code": "87",
-        "speciality": "NEUROCIRUGIA",
+        "code": "67",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "RINCON PEÑA JOSE",
-        "ci": "7862279"
+        "fullName": "MOYA ONTIVEROS JOHAN ADOLFO",
+        "ci": "13,409,852"
     },
     {
         "id": "209",
-        "code": "242",
-        "speciality": "GINECO-OBSTETRICIA",
-        "category": "CORTESIA",
-        "fullName": "RINCONES ALVARADO PEDRO GERMAN",
-        "ci": "5085856"
+        "code": "189",
+        "specialist": "PEDIATRIA",
+        "category": "PARTICIPACIONES",
+        "fullName": "MOYA PEREZ MARLINKA ANDREA",
+        "ci": "13,401,292"
     },
     {
         "id": "210",
-        "code": "353",
-        "speciality": "MEDICINA CRITICA",
-        "category": "CORTESIA",
-        "fullName": "RIVAS MEJICANO MARYORI ARGELIS",
-        "ci": "5411111"
+        "code": "152",
+        "specialist": "HEMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "MUJICA GARCIA JOSE LUIS",
+        "ci": "8,096,019"
     },
     {
         "id": "211",
-        "code": "205",
-        "speciality": "ANESTESIOLOGIA",
+        "code": "68",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "RIVAS TORO LUIS MANUEL",
-        "ci": "13727553"
+        "fullName": "MUÑOZ ROSARIO ESOMYGLE",
+        "ci": "12,929,129"
     },
     {
         "id": "212",
-        "code": "326",
-        "speciality": "MEDICINA GENERAL - FAMILIA",
+        "code": "228",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "RODRIGUEZ CAMPILONGO ESTEFANIA MARIA",
-        "ci": "23693767"
+        "fullName": "NACAD SIMON",
+        "ci": "6,366,599"
     },
     {
         "id": "213",
-        "code": "243",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "229",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "RODRIGUEZ ELI ESCALONA",
-        "ci": "3082754"
+        "fullName": "NAVARRO YOSIME",
+        "ci": "11,389,849"
     },
     {
         "id": "214",
-        "code": "241",
-        "speciality": "CARDIOLOGIA",
+        "code": "369",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "RODRIGUEZ R RAFAEL D",
-        "ci": "11166940"
+        "fullName": "NAVAS DE ZAMBRANO ROSA NATALY",
+        "ci": "17,629,355"
     },
     {
         "id": "215",
-        "code": "405",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "280",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "RODRIGUEZ ROERO DENISSE KORINA",
-        "ci": "20638383"
+        "fullName": "NAVAS FARFAN HUGO ANTONIO",
+        "ci": "5,566,968"
     },
     {
         "id": "216",
-        "code": "295",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "CORTESIA",
-        "fullName": "RODRIGUEZ VIñOLES MARIA PATRICIA DEL VALLE",
-        "ci": "18126688"
+        "code": "153",
+        "specialist": "TRAUMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "NEGRIN MENDOZA JOSE ANTONIO",
+        "ci": "6,431,149"
     },
     {
         "id": "217",
-        "code": "196",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "CORTESIA",
-        "fullName": "ROJAS FLORES MARIA JOSE",
-        "ci": "14221879"
+        "code": "69",
+        "specialist": "GASTROENTEROLOGIA PEDIATRA",
+        "category": "PARTICIPACIONES",
+        "fullName": "NERI SANDRA EMANUELA",
+        "ci": "15,133,680"
     },
     {
         "id": "218",
-        "code": "311",
-        "speciality": "INFECTOLOGIA",
+        "code": "283",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "ROJAS ROSALES MARIANELA JOSEFINA",
-        "ci": "14469426"
+        "fullName": "NOYA VICENTE JOSE RAMON",
+        "ci": "12,395,545"
     },
     {
         "id": "219",
-        "code": "91",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "70",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "ROJO RUBIO LEOPOLDO A.",
-        "ci": "8104350"
+        "fullName": "OCHOA JOSE FRANCISCO",
+        "ci": "6,818,711"
     },
     {
         "id": "220",
-        "code": "92",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "71",
+        "specialist": "NUTRICION",
         "category": "CORTESIA",
-        "fullName": "ROMERO J LEONARDO ALFREDO",
-        "ci": "9958931"
+        "fullName": "OHARA MORAN MILDRED SILVANA",
+        "ci": "81,602,478"
     },
     {
         "id": "221",
-        "code": "337",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "344",
+        "specialist": "NEFROLOGIA",
         "category": "CORTESIA",
-        "fullName": "ROMERO REQUENA JUAN CARLOS",
-        "ci": "9968730"
+        "fullName": "OLIVEROS LEONOR DEL CARMEN",
+        "ci": "8,832,504"
     },
     {
         "id": "222",
-        "code": "93",
-        "speciality": "NEUMOLOGIA",
+        "code": "72",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "ROMERO SALCEDO GUSTAVO JOSE",
-        "ci": "15372297"
+        "fullName": "ORTIZ DIAZ ALLISKAIR ANIBAL",
+        "ci": "9,484,440"
     },
     {
         "id": "223",
-        "code": "95",
-        "speciality": "ANATOMIA PATOLOGICA",
+        "code": "383",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "RUIZ ANDRES",
-        "ci": "2766547"
+        "fullName": "OSORIO ROMERO TIBISAY ELENA",
+        "ci": "6,897,339"
     },
     {
         "id": "224",
-        "code": "238",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "233",
+        "specialist": "CIRUGIA CARDIOVASCULAR",
         "category": "CORTESIA",
-        "fullName": "RUIZ PEDRO ROBERTO",
-        "ci": "5136514"
+        "fullName": "OSUNA CALDERON CARLOS ENRIQUE",
+        "ci": "8,018,378"
     },
     {
         "id": "225",
-        "code": "300",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "RUSSO TORRES LEONARDO ANTONIO",
-        "ci": "17255077"
+        "code": "155",
+        "specialist": "DERMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "PADRON GUEVARA LUIS ARMANDO",
+        "ci": "2,142,195"
     },
     {
         "id": "226",
-        "code": "235",
-        "speciality": "GINECO-OBSTETRICIA",
+        "code": "73",
+        "specialist": "NUTRICION",
         "category": "CORTESIA",
-        "fullName": "SAAD BAKHOS NELSON",
-        "ci": "6229066"
+        "fullName": "PALMA DIAZ JIMENA ANDREA",
+        "ci": "14,509,221"
     },
     {
         "id": "227",
-        "code": "204",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "SAAVEDRA QUERO OSWALDO RAFAEL",
-        "ci": "16348757"
+        "code": "324",
+        "specialist": "NEUMONOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "PALMIERI GUSTAVO",
+        "ci": "10,332,815"
     },
     {
         "id": "228",
-        "code": "96",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "74",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "SABOIN CARMONA JOSE LUIS",
-        "ci": "3576416"
+        "fullName": "PAZ ALVARADO FRANCISCO JOSE",
+        "ci": "6,815,839"
     },
     {
         "id": "229",
-        "code": "97",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "237",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "SALAS OTHONIEL",
-        "ci": "3953362"
+        "fullName": "PECORELLI CAPOZZI ANGEL DAVID",
+        "ci": "14,959,643"
     },
     {
         "id": "230",
-        "code": "188",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "77",
+        "specialist": "TRAUMATOLOGIA",
         "category": "CORTESIA",
-        "fullName": "SALAS SMITTER DANIUSKA JUDITH",
-        "ci": "14470980"
+        "fullName": "PEREIRA NUÑEZ ANA FRANCYS",
+        "ci": "12,501,312"
     },
     {
         "id": "231",
-        "code": "98",
-        "speciality": "MEDICINA CRITICA",
+        "code": "78",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "SALAVERRIA DE DIAZ SILVIA MARINA",
-        "ci": "4908296"
+        "fullName": "PEREZ BRETT RAMON JOSE",
+        "ci": "2,863,678"
     },
     {
         "id": "232",
-        "code": "368",
-        "speciality": "ANESTESIOLOGIA",
+        "code": "208",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "SALAZAR CORREA SILFREDO LEONARDO",
-        "ci": "7229173"
+        "fullName": "PEREZ CORREA CLAUDIA VIRGINIA",
+        "ci": "11,481,070"
     },
     {
         "id": "233",
-        "code": "378",
-        "speciality": "PEDIATRIA",
+        "code": "268",
+        "specialist": "CIRUGIA ONCOLOGICA",
         "category": "CORTESIA",
-        "fullName": "SALAZAR MATA ADRIANA CAROLINA",
-        "ci": "18013003"
+        "fullName": "PEREZ DIAZ GABRIEL ALEJANDRO",
+        "ci": "16,543,901"
     },
     {
         "id": "234",
-        "code": "305",
-        "speciality": "CIRUGIA PEDIATRICA",
+        "code": "79",
+        "specialist": "CARDIOLOGIA",
         "category": "CORTESIA",
-        "fullName": "SANZ MARIN GABRIELA INES",
-        "ci": "17457929"
+        "fullName": "PEREZ LEON JEAN CARLOS",
+        "ci": "13,267,972"
     },
     {
         "id": "235",
-        "code": "298",
-        "speciality": "MEDICINA INTERNA",
+        "code": "250",
+        "specialist": "REHABILITACION Y MEDICINA FISI",
         "category": "CORTESIA",
-        "fullName": "SEIJAS CARMEN GABRIELA",
-        "ci": "17353174"
+        "fullName": "PEREZ MENDOZA MAXLLOYS JEANETTE",
+        "ci": "13,585,859"
     },
     {
         "id": "236",
-        "code": "327",
-        "speciality": "CIRUGIA CARDIOVASCULAR",
-        "category": "CORTESIA",
-        "fullName": "SEQUERA RODRIGUEZ MIGUEL BENITO",
-        "ci": "6817318"
+        "code": "157",
+        "specialist": "CARDIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "PEREZ MORANTES SANDRA MARGARITA",
+        "ci": "7,771,911"
     },
     {
         "id": "237",
-        "code": "102",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "310",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "SERRANO FUENTES ANTONIO ALEJANDRO",
-        "ci": "16461224"
+        "fullName": "PEROZO RON JOSE RAFAEL",
+        "ci": "16,607,812"
     },
     {
         "id": "238",
-        "code": "325",
-        "speciality": "OFTALMOLOGIA",
+        "code": "75",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "SIFONTES RUBEN",
-        "ci": "3640424"
+        "fullName": "PEÑALOZA BASTOS MARCOS A.",
+        "ci": "6,208,759"
     },
     {
         "id": "239",
-        "code": "302",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "76",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "SIRA WEFFER ESTEBAN RAUL",
-        "ci": "15981031"
+        "fullName": "PEÑALOZA ZERPA NOEL ERNESTO",
+        "ci": "13,128,029"
     },
     {
         "id": "240",
-        "code": "103",
-        "speciality": "CIRUGIA ONCOLOGICA",
+        "code": "281",
+        "specialist": "GASTROENTEROLOGIA",
         "category": "CORTESIA",
-        "fullName": "SISO CARDENAS SAUL ANDRES",
-        "ci": "11163797"
+        "fullName": "PINEDA VETENCOURT CLARA VIRGINIA",
+        "ci": "16,583,695"
     },
     {
         "id": "241",
-        "code": "287",
-        "speciality": "MEDICINA INTERNA",
+        "code": "396",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "SISO MARCANO ROYFEL JOSE",
-        "ci": "18417316"
+        "fullName": "PINO LOPEZ GIPSY MARIA",
+        "ci": "6,928,851"
     },
     {
         "id": "242",
-        "code": "167",
-        "speciality": "NEUROCIRUGIA",
+        "code": "200",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "SOMAZA SALVADOR",
-        "ci": "4362881"
+        "fullName": "PINTO CORDOVA ELIOMAR JOSE",
+        "ci": "16,128,481"
     },
     {
         "id": "243",
-        "code": "371",
-        "speciality": "NEUROCIRUGIA PEDIATRICA",
+        "code": "282",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "SOTILLO ROQUE EDGAR LUIS",
-        "ci": "9286931"
+        "fullName": "PINTO PEREZ ABDELAZIZ GUSTAVO",
+        "ci": "4,452,397"
     },
     {
         "id": "244",
-        "code": "351",
-        "speciality": "CIRUGIA GENERAL",
-        "category": "CORTESIA",
-        "fullName": "TERAN CARDOZA ADRIAN JOSE",
-        "ci": "18992791"
+        "code": "276",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "PIÑERO DE ABREU MERFRA ALEXANDRA",
+        "ci": "13,094,930"
     },
     {
         "id": "245",
-        "code": "390",
-        "speciality": "CIRUGIA DE TORAX",
+        "code": "239",
+        "specialist": "ALERGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "TORO MEJIA BEATRIZ EUGENIA",
-        "ci": "17298414"
+        "fullName": "PLANCHARD RICARDO",
+        "ci": "5,967,043"
     },
     {
         "id": "246",
-        "code": "385",
-        "speciality": "GASTROENTEROLOGIA",
+        "code": "240",
+        "specialist": "CIRUJANO GENERAL",
         "category": "CORTESIA",
-        "fullName": "TORREALBA GAMEZ NORMA CELESTE",
-        "ci": "20108819"
+        "fullName": "PONTE SUCRE ALEJANDRO IGNACIO",
+        "ci": "6,900,646"
     },
     {
         "id": "247",
-        "code": "104",
-        "speciality": "CIRUGIA CARDIOVASCULAR",
+        "code": "401",
+        "specialist": "OTORRINOLARINGOLOGIA",
         "category": "CORTESIA",
-        "fullName": "TOVAR BLANCO SIMON",
-        "ci": "5272761"
+        "fullName": "PRATO RINCON PRISCILA",
+        "ci": "8,989,076"
     },
     {
         "id": "248",
-        "code": "384",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "190",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "TREJO ALVARADO ANGEL ANDRES",
-        "ci": "21442199"
+        "fullName": "QUEVEDO BONETTI CARLOS ALBERTO",
+        "ci": "14,970,406"
     },
     {
         "id": "249",
-        "code": "192",
-        "speciality": "MEDICINA INTERNA",
+        "code": "80",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "TROCCOLI HERNANDEZ MARCOS LUIS",
-        "ci": "3429682"
+        "fullName": "QUIJADA VERA DENNIS LOWELL",
+        "ci": "13,511,437"
     },
     {
         "id": "250",
-        "code": "105",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "219",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "TROCONIS ESPINO ALVARO JOSE",
-        "ci": "5311029"
+        "fullName": "QUINTANA PAEZ LIWVEN",
+        "ci": "9,679,514"
     },
     {
         "id": "251",
-        "code": "198",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "81",
+        "specialist": "CIRUGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "URDANETA CIANCI OCTAVIO ALEXANDER",
-        "ci": "17503916"
+        "fullName": "QUINTERO GONZALEZ LIZ",
+        "ci": "9,720,253"
     },
     {
         "id": "252",
-        "code": "399",
-        "speciality": "PEDIATRIA- PUERICULTOR",
+        "code": "82",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "UZCATEGUI CEBALLOS EUSMAR KARELYS",
-        "ci": "18971240"
+        "fullName": "QUINTERO LARROVERE MILAGRO",
+        "ci": "13,284,334"
     },
     {
         "id": "253",
-        "code": "106",
-        "speciality": "UROLOGIA",
+        "code": "83",
+        "specialist": "CIRUGIA DE TORAX",
         "category": "CORTESIA",
-        "fullName": "VALERO RAIR",
-        "ci": "14514327"
+        "fullName": "RAMIREZ RIVAS NELSON",
+        "ci": "2,079,949"
     },
     {
         "id": "254",
-        "code": "352",
-        "speciality": "CIRUJANO GENERAL",
+        "code": "85",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "VARELA MORENO CRISTOPHER LUIVER",
-        "ci": "19949160"
+        "fullName": "RAMOS JEREZ KAROL GABRIELA",
+        "ci": "14,813,055"
     },
     {
         "id": "255",
-        "code": "350",
-        "speciality": "PSIQUIATRIA",
+        "code": "210",
+        "specialist": "ENDOCRINOLOGIA",
         "category": "CORTESIA",
-        "fullName": "VARGAS GOITIA LUCILA TERESA",
-        "ci": "9805145"
+        "fullName": "RAMOS MAURELL ENRIQUE IVAN ANTONIO",
+        "ci": "15,637,664"
     },
     {
         "id": "256",
-        "code": "264",
-        "speciality": "CIRUGIA BARIATRICA",
+        "code": "194",
+        "specialist": "NEUROLOGIA PEDIATRICA",
         "category": "CORTESIA",
-        "fullName": "VELASQUEZ PEREZ FERNANDO GERARDO",
-        "ci": "15754431"
+        "fullName": "RANGEL RANGEL JOHN DILMER",
+        "ci": "17,614,397"
     },
     {
         "id": "257",
-        "code": "379",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "218",
+        "specialist": "",
         "category": "CORTESIA",
-        "fullName": "VERGARA RIVERA LORENT ESTEFANIA",
-        "ci": "20108500"
+        "fullName": "RASTELLI BLANCO LEONARDO",
+        "ci": "9,589,690"
     },
     {
         "id": "258",
-        "code": "230",
-        "speciality": "TERAPIA RESPIRATORIA",
+        "code": "297",
+        "specialist": "CIRUGIA GENERAL",
         "category": "CORTESIA",
-        "fullName": "VERHELST MARTINEZ SHEILLA MARIA",
-        "ci": "9993960"
+        "fullName": "RENDON CARRASQUEL VICTORIA GREGZAID",
+        "ci": "18,012,974"
     },
     {
         "id": "259",
-        "code": "403",
-        "speciality": "TRAUMATOLOGIA - ORTOPEDICA",
+        "code": "323",
+        "specialist": "ANESTESIOLOGIA",
         "category": "CORTESIA",
-        "fullName": "VERNICE SOLEDAD GUSTAVO ADOLFO",
-        "ci": "18240453"
+        "fullName": "REQUENA CAMEJO LISBETH JOSEFINA",
+        "ci": "12,640,022"
     },
     {
         "id": "260",
-        "code": "375",
-        "speciality": "NEUROCIRUGIA",
+        "code": "363",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "VILORIA HIDALGO ADOLFO",
-        "ci": "14385342"
+        "fullName": "REYES CEDEÑO RINA ZAHINA DE JESUS",
+        "ci": "14,852,335"
     },
     {
         "id": "261",
-        "code": "107",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "86",
+        "specialist": "GINECOLOGIA",
         "category": "CORTESIA",
-        "fullName": "WAGNER NEUMANN GASTON FRITZ",
-        "ci": "7084712"
+        "fullName": "RIANI PONCE MARIA AMPARO",
+        "ci": "13,557,216"
     },
     {
         "id": "262",
-        "code": "108",
-        "speciality": "INFECTOLOGO PEDIATRA",
-        "category": "CORTESIA",
-        "fullName": "YANES ROJAS ANDREINA TERESA",
-        "ci": "13121211"
+        "code": "158",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "RICCIARDELLI CIBELLO GAETANO",
+        "ci": "6,508,852"
     },
     {
         "id": "263",
-        "code": "109",
-        "speciality": "UROLOGIA",
+        "code": "260",
+        "specialist": "CIRUGIA PLASTICA",
         "category": "CORTESIA",
-        "fullName": "ZAMBRANO CARLOS",
-        "ci": "10745492"
+        "fullName": "RINCON DURAN NILYAN BEATRIZ",
+        "ci": "7,722,548"
     },
     {
         "id": "264",
-        "code": "110",
-        "speciality": "TRAUMATOLOGIA",
+        "code": "87",
+        "specialist": "NEUROCIRUGIA",
         "category": "CORTESIA",
-        "fullName": "ZAMBRANO JUAN",
-        "ci": "3297302"
+        "fullName": "RINCON PEÑA JOSE",
+        "ci": "7,862,279"
     },
     {
         "id": "265",
-        "code": "348",
-        "speciality": "PEDIATRIA",
+        "code": "242",
+        "specialist": "GINECO-OBSTETRICIA",
         "category": "CORTESIA",
-        "fullName": "ZAMORA ORTEGA SUSANA DENYIRE",
-        "ci": "18519074"
+        "fullName": "RINCONES ALVARADO PEDRO GERMAN",
+        "ci": "5,085,856"
     },
     {
         "id": "266",
-        "code": "111",
-        "speciality": "CIRUGIA GENERAL",
+        "code": "353",
+        "specialist": "MEDICINA CRITICA",
         "category": "CORTESIA",
-        "fullName": "ZAMORA SARABIA FRANCISCO A",
-        "ci": "11736717"
-    }
-];
-
-export const participacionTable = [
-    {
-        "id": "1",
-        "code": "303",
-        "speciality": "CIRUGIA PEDIATRICA",
-        "category": "PARTICIPACIONES",
-        "fullName": "ALVAREZ WILFREDO ARDENIS",
-        "ci": "15757492"
+        "fullName": "RIVAS MEJICANO MARYORI ARGELIS",
+        "ci": "5,411,111"
     },
     {
-        "id": "2",
-        "code": "39",
-        "speciality": "OTORRINOLARINGOLOGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "GONZALEZ RISQUEZ CARLA GABRIELA",
-        "ci": "12671607"
+        "id": "267",
+        "code": "205",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "RIVAS TORO LUIS MANUEL",
+        "ci": "13,727,553"
     },
     {
-        "id": "3",
-        "code": "40",
-        "speciality": "NEUROCIRUGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "GUERRA PAEZ RAFAEL DOMINGO",
-        "ci": "7123271"
+        "id": "268",
+        "code": "88",
+        "specialist": "PEDIATRIA",
+        "category": "ACCIONISTA",
+        "fullName": "RIVAS WALTER MINERVA",
+        "ci": "13,023,897"
     },
     {
-        "id": "4",
-        "code": "191",
-        "speciality": "REUMATOLOGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "LINARES CONTRERAS MARIA FERNANDA",
-        "ci": "14851372"
+        "id": "269",
+        "code": "159",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "RIVERA BENCHIMOL EDUARDO DANIEL",
+        "ci": "5,223,667"
     },
     {
-        "id": "5",
-        "code": "50",
-        "speciality": "ORTOPEDIA FUNCIONAL",
-        "category": "PARTICIPACIONES",
-        "fullName": "LOPEZ MEDRANO GUSTAVO ADOLFO",
-        "ci": "13459060"
-    },
-    {
-        "id": "6",
-        "code": "56",
-        "speciality": "GASTROENTEROLOGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "MARQUEZ RUSSIAN YLEANA CAROLINA",
-        "ci": "16226517"
-    },
-    {
-        "id": "7",
-        "code": "380",
-        "speciality": "UROLOGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "MEDINA COLINA JOSE ROSENDO",
-        "ci": "10791651"
-    },
-    {
-        "id": "8",
-        "code": "279",
-        "speciality": "OFTALMOLOGIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "MENDEZ DUNO MARISELA ANTONIETA",
-        "ci": "14968009"
-    },
-    {
-        "id": "9",
-        "code": "64",
-        "speciality": "CIRUGIA PLASTICA",
-        "category": "PARTICIPACIONES",
-        "fullName": "MORA ARIAS HECTOR JOSE",
-        "ci": "8839238"
-    },
-    {
-        "id": "10",
-        "code": "189",
-        "speciality": "PEDIATRIA",
-        "category": "PARTICIPACIONES",
-        "fullName": "MOYA PEREZ MARLINKA ANDREA",
-        "ci": "13401292"
-    },
-    {
-        "id": "11",
-        "code": "69",
-        "speciality": "GASTROENTEROLOGIA PEDIATRA",
-        "category": "PARTICIPACIONES",
-        "fullName": "NERI SANDRA EMANUELA",
-        "ci": "15133680"
-    },
-    {
-        "id": "12",
+        "id": "270",
         "code": "89",
-        "speciality": "UROLOGIA",
+        "specialist": "UROLOGIA",
         "category": "PARTICIPACIONES",
         "fullName": "RIVERA RUIZ DANIEL EDUARDO",
-        "ci": "15665844"
+        "ci": "15,665,844"
     },
     {
-        "id": "13",
+        "id": "271",
+        "code": "160",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "RODRIGUEZ ALVAREZ CLAUDINA",
+        "ci": "5,308,057"
+    },
+    {
+        "id": "272",
+        "code": "326",
+        "specialist": "MEDICINA GENERAL - FAMILIA",
+        "category": "CORTESIA",
+        "fullName": "RODRIGUEZ CAMPILONGO ESTEFANIA MARIA",
+        "ci": "23,693,767"
+    },
+    {
+        "id": "273",
+        "code": "243",
+        "specialist": "CIRUJANO GENERAL",
+        "category": "CORTESIA",
+        "fullName": "RODRIGUEZ ELI ESCALONA",
+        "ci": "3,082,754"
+    },
+    {
+        "id": "274",
+        "code": "241",
+        "specialist": "CARDIOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "RODRIGUEZ R RAFAEL D",
+        "ci": "11,166,940"
+    },
+    {
+        "id": "275",
+        "code": "405",
+        "specialist": "CIRUGIA PEDIATRICA",
+        "category": "CORTESIA",
+        "fullName": "RODRIGUEZ ROERO DENISSE KORINA",
+        "ci": "20,638,383"
+    },
+    {
+        "id": "276",
+        "code": "161",
+        "specialist": "DERMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "RODRIGUEZ VICENTELLI EDGAR",
+        "ci": "2,086,541"
+    },
+    {
+        "id": "277",
+        "code": "295",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "CORTESIA",
+        "fullName": "RODRIGUEZ VIñOLES MARIA PATRICIA DEL VALLE",
+        "ci": "18,126,688"
+    },
+    {
+        "id": "278",
+        "code": "196",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ROJAS FLORES MARIA JOSE",
+        "ci": "14,221,879"
+    },
+    {
+        "id": "279",
+        "code": "162",
+        "specialist": "ODONTOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "ROJAS FRANCO\u001f\u001f JOSE ANIBAL",
+        "ci": "13,693,367"
+    },
+    {
+        "id": "280",
+        "code": "311",
+        "specialist": "INFECTOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ROJAS ROSALES MARIANELA JOSEFINA",
+        "ci": "14,469,426"
+    },
+    {
+        "id": "281",
+        "code": "91",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "ROJO RUBIO LEOPOLDO A.",
+        "ci": "8,104,350"
+    },
+    {
+        "id": "282",
+        "code": "92",
+        "specialist": "TRAUMATOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ROMERO J LEONARDO ALFREDO",
+        "ci": "9,958,931"
+    },
+    {
+        "id": "283",
+        "code": "337",
+        "specialist": "CIRUGIA ONCOLOGICA",
+        "category": "CORTESIA",
+        "fullName": "ROMERO REQUENA JUAN CARLOS",
+        "ci": "9,968,730"
+    },
+    {
+        "id": "284",
+        "code": "93",
+        "specialist": "NEUMOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ROMERO SALCEDO GUSTAVO JOSE",
+        "ci": "15,372,297"
+    },
+    {
+        "id": "285",
         "code": "94",
-        "speciality": "UROLOGIA",
+        "specialist": "UROLOGIA",
         "category": "PARTICIPACIONES",
         "fullName": "ROTUNNO C GIANCARLOS",
-        "ci": "14889903"
+        "ci": "14,889,903"
     },
     {
-        "id": "14",
+        "id": "286",
+        "code": "95",
+        "specialist": "ANATOMIA PATOLOGICA",
+        "category": "CORTESIA",
+        "fullName": "RUIZ ANDRES",
+        "ci": "2,766,547"
+    },
+    {
+        "id": "287",
+        "code": "238",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "RUIZ PEDRO ROBERTO",
+        "ci": "5,136,514"
+    },
+    {
+        "id": "288",
+        "code": "300",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "RUSSO TORRES LEONARDO ANTONIO",
+        "ci": "17,255,077"
+    },
+    {
+        "id": "289",
+        "code": "235",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "CORTESIA",
+        "fullName": "SAAD BAKHOS NELSON",
+        "ci": "6,229,066"
+    },
+    {
+        "id": "290",
+        "code": "204",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SAAVEDRA QUERO OSWALDO RAFAEL",
+        "ci": "16,348,757"
+    },
+    {
+        "id": "291",
+        "code": "96",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SABOIN CARMONA JOSE LUIS",
+        "ci": "3,576,416"
+    },
+    {
+        "id": "292",
+        "code": "97",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SALAS OTHONIEL",
+        "ci": "3,953,362"
+    },
+    {
+        "id": "293",
+        "code": "188",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SALAS SMITTER DANIUSKA JUDITH",
+        "ci": "14,470,980"
+    },
+    {
+        "id": "294",
+        "code": "98",
+        "specialist": "MEDICINA CRITICA",
+        "category": "CORTESIA",
+        "fullName": "SALAVERRIA DE DIAZ SILVIA MARINA",
+        "ci": "4,908,296"
+    },
+    {
+        "id": "295",
+        "code": "100",
+        "specialist": "REUMATOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "SALAZAR BLANCO SUSANA JOSEFINA",
+        "ci": "5,875,345"
+    },
+    {
+        "id": "296",
+        "code": "368",
+        "specialist": "ANESTESIOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "SALAZAR CORREA SILFREDO LEONARDO",
+        "ci": "7,229,173"
+    },
+    {
+        "id": "297",
+        "code": "378",
+        "specialist": "PEDIATRIA",
+        "category": "CORTESIA",
+        "fullName": "SALAZAR MATA ADRIANA CAROLINA",
+        "ci": "18,013,003"
+    },
+    {
+        "id": "298",
         "code": "99",
-        "speciality": "MEDICINA INTERNA",
+        "specialist": "MEDICINA INTERNA",
         "category": "PARTICIPACIONES",
         "fullName": "SALAZAR PATETE ANTONIO JOSE",
-        "ci": "16940515"
+        "ci": "16,940,515"
     },
     {
-        "id": "15",
+        "id": "299",
+        "code": "163",
+        "specialist": "PEDIATRIA",
+        "category": "ACCIONISTA",
+        "fullName": "SALAZAR SANCHEZ ELSIE ELENA",
+        "ci": "9,513,290"
+    },
+    {
+        "id": "300",
+        "code": "101",
+        "specialist": "PEDIATRIA",
+        "category": "ACCIONISTA",
+        "fullName": "SANCHEZ PIRELA SUMI LUCIA",
+        "ci": "13,531,641"
+    },
+    {
+        "id": "301",
+        "code": "329",
+        "specialist": "NEUROCIRUGIA",
+        "category": "ACCIONISTA",
+        "fullName": "SANGUINO PEREZ JOSE ARCADIO",
+        "ci": "18,257,586"
+    },
+    {
+        "id": "302",
+        "code": "305",
+        "specialist": "CIRUGIA PEDIATRICA",
+        "category": "CORTESIA",
+        "fullName": "SANZ MARIN GABRIELA INES",
+        "ci": "17,457,929"
+    },
+    {
+        "id": "303",
+        "code": "165",
+        "specialist": "GINECO-OBSTETRICIA",
+        "category": "ACCIONISTA",
+        "fullName": "SCHULER FEDERICO HUGO OSCAR",
+        "ci": "6,165,381"
+    },
+    {
+        "id": "304",
+        "code": "298",
+        "specialist": "MEDICINA INTERNA",
+        "category": "CORTESIA",
+        "fullName": "SEIJAS CARMEN GABRIELA",
+        "ci": "17,353,174"
+    },
+    {
+        "id": "305",
+        "code": "327",
+        "specialist": "CIRUGIA CARDIOVASCULAR",
+        "category": "CORTESIA",
+        "fullName": "SEQUERA RODRIGUEZ MIGUEL BENITO",
+        "ci": "6,817,318"
+    },
+    {
+        "id": "306",
+        "code": "102",
+        "specialist": "CIRUJANO GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SERRANO FUENTES ANTONIO ALEJANDRO",
+        "ci": "16,461,224"
+    },
+    {
+        "id": "307",
+        "code": "325",
+        "specialist": "OFTALMOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "SIFONTES RUBEN",
+        "ci": "3,640,424"
+    },
+    {
+        "id": "308",
+        "code": "302",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "SIRA WEFFER ESTEBAN RAUL",
+        "ci": "15,981,031"
+    },
+    {
+        "id": "309",
+        "code": "103",
+        "specialist": "CIRUGIA ONCOLOGICA",
+        "category": "CORTESIA",
+        "fullName": "SISO CARDENAS SAUL ANDRES",
+        "ci": "11,163,797"
+    },
+    {
+        "id": "310",
+        "code": "287",
+        "specialist": "MEDICINA INTERNA",
+        "category": "CORTESIA",
+        "fullName": "SISO MARCANO ROYFEL JOSE",
+        "ci": "18,417,316"
+    },
+    {
+        "id": "311",
+        "code": "166",
+        "specialist": "OTORRINOLARINGOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "SOLORZANO DE REYES GENOVEVA",
+        "ci": "3,281,899"
+    },
+    {
+        "id": "312",
+        "code": "167",
+        "specialist": "NEUROCIRUGIA",
+        "category": "CORTESIA",
+        "fullName": "SOMAZA SALVADOR",
+        "ci": "4,362,881"
+    },
+    {
+        "id": "313",
+        "code": "371",
+        "specialist": "NEUROCIRUGIA PEDIATRICA",
+        "category": "CORTESIA",
+        "fullName": "SOTILLO ROQUE EDGAR LUIS",
+        "ci": "9,286,931"
+    },
+    {
+        "id": "314",
+        "code": "168",
+        "specialist": "PSICOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "SOTO CHEBLY MARY INMACULADA",
+        "ci": "5,541,414"
+    },
+    {
+        "id": "315",
+        "code": "336",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "TELLEZ CANRO NELSON GABRIEL",
+        "ci": "11,953,981"
+    },
+    {
+        "id": "316",
+        "code": "351",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "TERAN CARDOZA ADRIAN JOSE",
+        "ci": "18,992,791"
+    },
+    {
+        "id": "317",
+        "code": "390",
+        "specialist": "CIRUGIA DE TORAX",
+        "category": "CORTESIA",
+        "fullName": "TORO MEJIA BEATRIZ EUGENIA",
+        "ci": "17,298,414"
+    },
+    {
+        "id": "318",
+        "code": "385",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "CORTESIA",
+        "fullName": "TORREALBA GAMEZ NORMA CELESTE",
+        "ci": "20,108,819"
+    },
+    {
+        "id": "319",
         "code": "365",
-        "speciality": "MEDICINA CRITICA",
+        "specialist": "MEDICINA CRITICA",
         "category": "PARTICIPACIONES",
         "fullName": "TORRES BRANDY FRANKY JOSE",
-        "ci": "4882011"
+        "ci": "4,882,011"
     },
     {
-        "id": "16",
+        "id": "320",
+        "code": "104",
+        "specialist": "CIRUGIA CARDIOVASCULAR",
+        "category": "CORTESIA",
+        "fullName": "TOVAR BLANCO SIMON",
+        "ci": "5,272,761"
+    },
+    {
+        "id": "321",
+        "code": "384",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "TREJO ALVARADO ANGEL ANDRES",
+        "ci": "21,442,199"
+    },
+    {
+        "id": "322",
+        "code": "192",
+        "specialist": "MEDICINA INTERNA",
+        "category": "CORTESIA",
+        "fullName": "TROCCOLI HERNANDEZ MARCOS LUIS",
+        "ci": "3,429,682"
+    },
+    {
+        "id": "323",
+        "code": "105",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "TROCONIS ESPINO ALVARO JOSE",
+        "ci": "5,311,029"
+    },
+    {
+        "id": "324",
         "code": "193",
-        "speciality": "ENDOCRINOLOGIA",
+        "specialist": "ENDOCRINOLOGIA",
         "category": "PARTICIPACIONES",
         "fullName": "TRONCONE OCHOA MARIA GABRIELA",
-        "ci": "13564760"
+        "ci": "13,564,760"
+    },
+    {
+        "id": "325",
+        "code": "198",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "URDANETA CIANCI OCTAVIO ALEXANDER",
+        "ci": "17,503,916"
+    },
+    {
+        "id": "326",
+        "code": "399",
+        "specialist": "PEDIATRIA- PUERICULTOR",
+        "category": "CORTESIA",
+        "fullName": "UZCATEGUI CEBALLOS EUSMAR KARELYS",
+        "ci": "18,971,240"
+    },
+    {
+        "id": "327",
+        "code": "106",
+        "specialist": "UROLOGIA",
+        "category": "CORTESIA",
+        "fullName": "VALERO RAIR",
+        "ci": "14,514,327"
+    },
+    {
+        "id": "328",
+        "code": "313",
+        "specialist": "NEUMONOLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "VALOA BORGES EDGAR YSMAEL",
+        "ci": "8,828,626"
+    },
+    {
+        "id": "329",
+        "code": "352",
+        "specialist": "CIRUJANO GENERAL",
+        "category": "CORTESIA",
+        "fullName": "VARELA MORENO CRISTOPHER LUIVER",
+        "ci": "19,949,160"
+    },
+    {
+        "id": "330",
+        "code": "350",
+        "specialist": "PSIQUIATRIA",
+        "category": "CORTESIA",
+        "fullName": "VARGAS GOITIA LUCILA TERESA",
+        "ci": "9,805,145"
+    },
+    {
+        "id": "331",
+        "code": "264",
+        "specialist": "CIRUGIA BARIATRICA",
+        "category": "CORTESIA",
+        "fullName": "VELASQUEZ PEREZ FERNANDO GERARDO",
+        "ci": "15,754,431"
+    },
+    {
+        "id": "332",
+        "code": "170",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "ACCIONISTA",
+        "fullName": "VELASQUEZ RAMOS MARIA DEL CARMEN",
+        "ci": "6,555,225"
+    },
+    {
+        "id": "333",
+        "code": "379",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "VERGARA RIVERA LORENT ESTEFANIA",
+        "ci": "20,108,500"
+    },
+    {
+        "id": "334",
+        "code": "230",
+        "specialist": "TERAPIA RESPIRATORIA",
+        "category": "CORTESIA",
+        "fullName": "VERHELST MARTINEZ SHEILLA MARIA",
+        "ci": "9,993,960"
+    },
+    {
+        "id": "335",
+        "code": "403",
+        "specialist": "TRAUMATOLOGIA - ORTOPEDICA",
+        "category": "CORTESIA",
+        "fullName": "VERNICE SOLEDAD GUSTAVO ADOLFO",
+        "ci": "18,240,453"
+    },
+    {
+        "id": "336",
+        "code": "171",
+        "specialist": "PEDIATRIA",
+        "category": "ACCIONISTA",
+        "fullName": "VILLANI FREDA DOMENICO ANTONIO",
+        "ci": "5,967,767"
+    },
+    {
+        "id": "337",
+        "code": "375",
+        "specialist": "NEUROCIRUGIA",
+        "category": "CORTESIA",
+        "fullName": "VILORIA HIDALGO ADOLFO",
+        "ci": "14,385,342"
+    },
+    {
+        "id": "338",
+        "code": "172",
+        "specialist": "GASTROENTEROLOGIA",
+        "category": "ACCIONISTA",
+        "fullName": "WAGNER DE BERMUDEZ VILMA ANTONIETA",
+        "ci": "2,146,213"
+    },
+    {
+        "id": "339",
+        "code": "107",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "WAGNER NEUMANN GASTON FRITZ",
+        "ci": "7,084,712"
+    },
+    {
+        "id": "340",
+        "code": "108",
+        "specialist": "INFECTOLOGO PEDIATRA",
+        "category": "CORTESIA",
+        "fullName": "YANES ROJAS ANDREINA TERESA",
+        "ci": "13,121,211"
+    },
+    {
+        "id": "341",
+        "code": "109",
+        "specialist": "UROLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ZAMBRANO CARLOS",
+        "ci": "10,745,492"
+    },
+    {
+        "id": "342",
+        "code": "110",
+        "specialist": "TRAUMATOLOGIA",
+        "category": "CORTESIA",
+        "fullName": "ZAMBRANO JUAN",
+        "ci": "3,297,302"
+    },
+    {
+        "id": "343",
+        "code": "173",
+        "specialist": "MEDICINA CRITICA",
+        "category": "ACCIONISTA",
+        "fullName": "ZAMBRANO HERNANDEZ GERSON DANIEL",
+        "ci": "8,351,475"
+    },
+    {
+        "id": "344",
+        "code": "348",
+        "specialist": "PEDIATRIA",
+        "category": "CORTESIA",
+        "fullName": "ZAMORA ORTEGA SUSANA DENYIRE",
+        "ci": "18,519,074"
+    },
+    {
+        "id": "345",
+        "code": "111",
+        "specialist": "CIRUGIA GENERAL",
+        "category": "CORTESIA",
+        "fullName": "ZAMORA SARABIA FRANCISCO A",
+        "ci": "11,736,717"
     }
 ];

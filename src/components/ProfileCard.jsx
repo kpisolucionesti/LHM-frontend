@@ -1,10 +1,13 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import { Badge, Card, CardContent, CardHeader, createTheme, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from "@mui/material"
 import { useEffect } from "react"
-import { tableData, accionistaTable, cortesiaTable, participacionTable } from "../data"
+import { tableData, doctorTable } from "../data"
 import ReceiptIcon from '@mui/icons-material/Receipt';
+import UserContext from "../context/user-context";
 
-const ProfileCard = ({ doctor }) => {
+const ProfileCard = () => {
+
+    const { user } = useContext(UserContext)
 
     const theme = createTheme({
         palette: {
@@ -20,26 +23,20 @@ const ProfileCard = ({ doctor }) => {
     const [profileDoctor, setProfileDoctor] = useState({} || '')
 
     useEffect(() => {
-        if(accionistaTable.find(data => data.code === doctor)){
-            setProfileDoctor(accionistaTable.find(data => data.code === doctor))
-        } else if(cortesiaTable.find(data => data.code === doctor)){
-            setProfileDoctor(cortesiaTable.find(data => data.code === doctor))
-        } else {
-            setProfileDoctor(participacionTable.find(data => data.code === doctor))
-        }
-    },[doctor])
+        setProfileDoctor(doctorTable.find(data => data.code === user.code))
+    },[user.code])
 
     const handleBalance = (filter) => {
-        const filterBalance = tableData.filter( data => data.code === doctor && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
+        const filterBalance = tableData.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
     }
 
     const handleCountInvoice = (filter) => {
-        const filterCount = tableData.filter(data => data.code === doctor && data.status === filter)
+        const filterCount = tableData.filter(data => data.code === user.code && data.status === filter)
         return filterCount.length
     }
 
-    const totalInvoice = tableData.filter(data => data.code === doctor)
+    const totalInvoice = tableData.filter(data => data.code === user.code)
 
     return (
         <ThemeProvider theme={theme}>
@@ -51,14 +48,14 @@ const ProfileCard = ({ doctor }) => {
                             <ReceiptIcon />
                         </Badge> )}
                         title={profileDoctor.fullName}
-                        subheader={profileDoctor.speciality}
+                        subheader={profileDoctor.specialist}
                     />
                     ) : "" 
                 }
                 <CardContent>
                 { typeof profileDoctor === 'object' ? (
                 <>
-                    <p><b>TOTAL: </b> {tableData.filter( data => data.code === doctor).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</p>
+                    <p><b>TOTAL: </b> {tableData.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</p>
                     <List>
                         <ListItem>
                             <ListItemIcon>

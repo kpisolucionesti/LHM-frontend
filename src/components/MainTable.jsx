@@ -1,12 +1,14 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useContext, useEffect, useMemo, useState } from 'react';
 import { MaterialReactTable, useMaterialReactTable } from 'material-react-table';
 import DetailModal from './DetailModal';
 import { Chip, createTheme, ThemeProvider } from '@mui/material';
 import ActionFilter from './ActionFilter';
+import UserContext from '../context/user-context';
 
-const MainTable = ({ doctor, tableData }) => {
+const MainTable = ({ tableData }) => {
 
     const [data, setData] = useState(tableData)
+    const { user } = useContext(UserContext) 
 
     const theme = createTheme({
         palette: {
@@ -20,18 +22,18 @@ const MainTable = ({ doctor, tableData }) => {
       });
     
     useEffect(() => {
-        if(doctor !== ''){
-            setData(tableData.filter(data => data.code === doctor))
+        if(user !== ''){
+            setData(tableData.filter(data => data.code === user.code))
         } else {
             setData(tableData)
         }
-    },[doctor, tableData])
+    },[user, tableData])
 
     const handleFilterStatus = (value) =>{
         if(value === '') {
-            setData(tableData.filter(data => data.code === doctor))
+            setData(tableData.filter(data => data.code === user.code))
         } else {
-            setData(tableData.filter(data => data.code === doctor && data.status === value))
+            setData(tableData.filter(data => data.code === user.code && data.status === value))
         }
     }
 

@@ -19,7 +19,7 @@ const DetailModal = ({ row }) => {
 
     return(
         <>
-            <Button variant="contained" color='info' onClick={handleOpen}>
+            <Button variant="contained" color='info' onClick={handleOpen} size="small" >
                 Detalles
             </Button>
             <Dialog open={show} onClose={handleClose} >

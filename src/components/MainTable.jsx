@@ -4,11 +4,13 @@ import DetailModal from './DetailModal';
 import { Chip, createTheme, ThemeProvider } from '@mui/material';
 import ActionFilter from './ActionFilter';
 import UserContext from '../context/user-context';
+import PaymentContext from '../context/payment-context';
 
-const MainTable = ({ tableData }) => {
+const MainTable = () => {
 
-    const [data, setData] = useState(tableData)
+    const [data, setData] = useState([])
     const { user } = useContext(UserContext) 
+    const { payment } = useContext(PaymentContext)
 
     const theme = createTheme({
         palette: {
@@ -20,26 +22,28 @@ const MainTable = ({ tableData }) => {
           },
         },
       });
+
+      console.log(user)
+      console.log(payment)
     
     useEffect(() => {
-        if(user !== ''){
-            setData(tableData.filter(data => data.code === user.code))
-        } else {
-            setData(tableData)
-        }
-    },[user, tableData])
+        let uniqueData = payment.filter((obj, index) => {
+            return index === payment.findIndex(o => obj.account === o.account && obj.code === o.code)
+        }).filter(data => data.code === user.code)
+        setData(uniqueData)
+    },[user, payment])
 
     const handleFilterStatus = (value) =>{
         if(value === '') {
-            setData(tableData.filter(data => data.code === user.code))
+            setData(payment.filter(data => data.code === user.code))
         } else {
-            setData(tableData.filter(data => data.code === user.code && data.status === value))
+            setData(payment.filter(data => data.code === user.code && data.status === value))
         }
     }
 
     const columns = useMemo(() => [
             {
-                accessorFn: (row) => `${row.class} ${row.invoice}`,
+                accessorFn: (row) => `${row.classInvoice} ${row.invoice}`,
                 header: 'Factura',
                 Cell: ({ cell }) => (
                     <span>{cell.row.original.invoice === '' ? 'N/A' : cell.getValue()}</span>

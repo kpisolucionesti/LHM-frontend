@@ -1,7 +1,6 @@
-import { useContext, useState } from "react"
-import { Badge, Card, CardContent, CardHeader, createTheme, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from "@mui/material"
-import { useEffect } from "react"
-import { tableData, doctorTable } from "../data"
+import { useContext } from "react"
+import { Badge, Card, CardContent, createTheme, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from "@mui/material"
+import { tableData } from "../data"
 import ReceiptIcon from '@mui/icons-material/Receipt';
 import UserContext from "../context/user-context";
 
@@ -20,12 +19,6 @@ const ProfileCard = () => {
         },
       });
 
-    const [profileDoctor, setProfileDoctor] = useState({} || '')
-
-    useEffect(() => {
-        setProfileDoctor(doctorTable.find(data => data.code === user.code))
-    },[user.code])
-
     const handleBalance = (filter) => {
         const filterBalance = tableData.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
@@ -41,21 +34,10 @@ const ProfileCard = () => {
     return (
         <ThemeProvider theme={theme}>
             <Card>
-                { typeof profileDoctor === 'object' ? (
-                    <CardHeader
-                        avatar={(
-                        <Badge badgeContent={totalInvoice.length} color="primary"  >
-                            <ReceiptIcon />
-                        </Badge> )}
-                        title={profileDoctor.fullName}
-                        subheader={profileDoctor.specialist}
-                    />
-                    ) : "" 
-                }
                 <CardContent>
-                { typeof profileDoctor === 'object' ? (
-                <>
-                    <p><b>TOTAL: </b> {tableData.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</p>
+                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={totalInvoice.length} color="primary"  >
+                            <ReceiptIcon />
+                    </Badge><span><b>TOTAL: </b> {tableData.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
                     <List>
                         <ListItem>
                             <ListItemIcon>
@@ -63,7 +45,7 @@ const ProfileCard = () => {
                                     <ReceiptIcon />
                                 </Badge>
                             </ListItemIcon>
-                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Facturado")}`} secondary="HOLA" />
+                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Facturado")}`} />
                         </ListItem>
                         <ListItem>
                             <ListItemIcon>
@@ -90,9 +72,6 @@ const ProfileCard = () => {
                             <ListItemText primary={`LIQUIDADO: ${handleBalance("Liquidado")}`} />
                         </ListItem>
                     </List>
-                </>
-                ) : <h2>{profileDoctor}</h2>
-                }
                 </CardContent>
             </Card>
         </ThemeProvider>

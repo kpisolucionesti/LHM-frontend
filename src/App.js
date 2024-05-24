@@ -1,19 +1,22 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./components/MainLayout";
 import MenuBar from "./components/commons/Menu";
-import UserContext, { user } from "./context/user-context";
+import { UserProvider } from "./context/user-context";
+import { PaymentProvider } from "./context/payment-context";
 
 function App() {
 
   return (
-    <UserContext value={{ user }}>
-      <Router>
-        <Routes>
+    <UserProvider>
+      <PaymentProvider>
+        <Router>
           <MenuBar />
-          <Route path="/" element={<MainLayout />} />
-        </Routes>
-      </Router>
-    </UserContext> 
+          <Routes>
+            <Route path="/" element={<MainLayout />} />
+          </Routes>
+        </Router> 
+      </PaymentProvider>
+    </UserProvider>
   );
 }
 

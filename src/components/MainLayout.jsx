@@ -1,31 +1,22 @@
 import { Grid } from "@mui/material";
 import MainTable from "./MainTable";
 import ProfileCard from "./ProfileCard";
-import { useEffect, useState } from "react";
-import { BackendApi } from "../services/BackendApi";
+import MenuBar from "./commons/Menu";
 
 const MainLayout = () => {
-
-    const [data, setData] = useState([])
-
-    useEffect(() => {
-        if(data.length === 0){
-            BackendApi.users.getAll().then((res) => setData(res))
-        }
-    },[data])
-
-    console.log(data)
     
-
     return(
-        <Grid container spacing={2} sx={{ marginTop: 1 }}>
-            <Grid item xs={3}>
-                <ProfileCard />
+        <>
+            <MenuBar />
+            <Grid container spacing={2} sx={{ marginTop: 1 }}>
+                <Grid item xs={12}>
+                    <ProfileCard />
+                </Grid>
+                <Grid item xs={12}>
+                    <MainTable />
+                </Grid>
             </Grid>
-            <Grid item xs={9}>
-                <MainTable />
-            </Grid>
-        </Grid>
+        </>
     )
 }
 

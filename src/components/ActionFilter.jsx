@@ -7,7 +7,7 @@ const ActionFilter = ({ handleFilterStatus }) => {
 
     useEffect(() => {
         handleFilterStatus(selected)
-    },[selected])
+    },[selected, handleFilterStatus])
 
     const theme = createTheme({
         palette: {
@@ -42,7 +42,7 @@ const ActionFilter = ({ handleFilterStatus }) => {
             size="small"
         >
             <ToggleButton value=''>Todos</ToggleButton>
-            <ToggleButton value='No Facturado'>No Facturado</ToggleButton>
+            <ToggleButton value='No Factura'>No Facturado</ToggleButton>
             <ToggleButton value='Facturado'>Facturado</ToggleButton>
             <ToggleButton value='Cobrado'>Cobrado</ToggleButton>
             <ToggleButton value='Liquidado'>Liquidado</ToggleButton>

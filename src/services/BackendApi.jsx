@@ -13,6 +13,15 @@ export const BackendApi = {
             catch (e) {
                 console.log(e)
             }
+        },
+        getById: async (code) => {
+            try {
+                const res = await axiosInstance.get('/users/' + code)
+                return res.data
+            } 
+            catch (e) {
+                console.log(e)
+            }
         }
     },
     payments: {

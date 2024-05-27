@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainLayout from "./components/MainLayout";
-import MenuBar from "./components/commons/Menu";
 import { UserProvider } from "./context/user-context";
 import { PaymentProvider } from "./context/payment-context";
+import MainLayout from "./components/MainLayout";
+import LoginPage from "./components/screens/login/Page";
+import PrivateRoute from "./components/Routes/PrivateRoute";
+import PublicRoute from "./components/Routes/PublicRoute";
 
 function App() {
 
@@ -10,9 +12,17 @@ function App() {
     <UserProvider>
       <PaymentProvider>
         <Router>
-          <MenuBar />
-          <Routes>
-            <Route path="/" element={<MainLayout />} />
+          <Routes >
+            <Route path="/" element={
+              <PublicRoute>
+                <LoginPage />
+              </PublicRoute>
+            } />
+            <Route path="/dashboard" element={
+                <PrivateRoute>
+                  <MainLayout />
+                </PrivateRoute>
+            } />
           </Routes>
         </Router> 
       </PaymentProvider>

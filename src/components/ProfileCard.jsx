@@ -1,55 +1,43 @@
-import { useContext } from "react"
-import { Badge, Card, CardContent, createTheme, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from "@mui/material"
-import { tableData } from "../data"
+import { Badge, Card, CardContent, List, ListItem, ListItemIcon, ListItemText } from "@mui/material"
 import ReceiptIcon from '@mui/icons-material/Receipt';
-import UserContext from "../context/user-context";
+import useUserContext from "../hooks/useUserContext";
+import usePaymentContext from "../hooks/usePaymentContext";
 
 const ProfileCard = () => {
 
-    const { user } = useContext(UserContext)
-
-    const theme = createTheme({
-        palette: {
-          facturado: {
-            main: '#E3D026',
-            light: '#E9DB5D',
-            dark: '#A29415',
-            contrastText: '#242105',
-          },
-        },
-      });
+    const user = useUserContext()
+    const payments = usePaymentContext()
 
     const handleBalance = (filter) => {
-        const filterBalance = tableData.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
+        const filterBalance = payments.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
     }
 
     const handleCountInvoice = (filter) => {
-        const filterCount = tableData.filter(data => data.code === user.code && data.status === filter)
+        const filterCount = payments.filter(data => data.code === user.code && data.status === filter)
         return filterCount.length
     }
 
-    const totalInvoice = tableData.filter(data => data.code === user.code)
+    const totalInvoice = payments.filter(data => data.code === user.code)
 
     return (
-        <ThemeProvider theme={theme}>
             <Card>
                 <CardContent>
                     <Badge sx={{ ml: 2, mr: 3 }} badgeContent={totalInvoice.length} color="primary"  >
                             <ReceiptIcon />
-                    </Badge><span><b>TOTAL: </b> {tableData.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
+                    </Badge><span><b>TOTAL: </b> {payments.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
                     <List>
                         <ListItem>
                             <ListItemIcon>
-                                <Badge color="error" badgeContent={handleCountInvoice('No Facturado')} >
+                                <Badge color="error" badgeContent={handleCountInvoice('No Factura')} >
                                     <ReceiptIcon />
                                 </Badge>
                             </ListItemIcon>
-                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Facturado")}`} />
+                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Factura")}`} />
                         </ListItem>
                         <ListItem>
                             <ListItemIcon>
-                                <Badge color="facturado" badgeContent={handleCountInvoice('Facturado')} >
+                                <Badge color="warning" badgeContent={handleCountInvoice('Facturado')} >
                                     <ReceiptIcon />
                                 </Badge>
                             </ListItemIcon>
@@ -74,7 +62,6 @@ const ProfileCard = () => {
                     </List>
                 </CardContent>
             </Card>
-        </ThemeProvider>
     )
 }
 

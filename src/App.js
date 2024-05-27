@@ -5,28 +5,31 @@ import MainLayout from "./components/MainLayout";
 import LoginPage from "./components/screens/login/Page";
 import PrivateRoute from "./components/Routes/PrivateRoute";
 import PublicRoute from "./components/Routes/PublicRoute";
+import { AuthProvider } from "./context/auth-context";
 
 function App() {
 
   return (
-    <UserProvider>
-      <PaymentProvider>
-        <Router>
-          <Routes >
-            <Route path="/" element={
-              <PublicRoute>
-                <LoginPage />
-              </PublicRoute>
-            } />
-            <Route path="/dashboard" element={
+    <AuthProvider>
+      <UserProvider>
+        <PaymentProvider>
+          <Router>
+            <Routes >
+              <Route path="/" element={
+                <PublicRoute>
+                  <LoginPage />
+                </PublicRoute>
+              } />
+              <Route path="/dashboard" element={
                 <PrivateRoute>
-                  <MainLayout />
-                </PrivateRoute>
-            } />
-          </Routes>
-        </Router> 
-      </PaymentProvider>
-    </UserProvider>
+                    <MainLayout />
+                  </PrivateRoute>
+              } />
+            </Routes>
+          </Router> 
+        </PaymentProvider>
+      </UserProvider>
+    </AuthProvider>
   );
 }
 

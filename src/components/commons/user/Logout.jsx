@@ -1,10 +1,10 @@
 import { Button } from "@mui/material"
 import { useContext } from "react"
-import UserContext from "../../../context/user-context"
+import AuthContext from "../../../context/auth-context"
 
 const LogoutButton = () => {
 
-    const { logout } = useContext(UserContext)
+    const { logout } = useContext(AuthContext)
 
     return (
         <Button variant="error" onClick={() => logout()} >Salir</Button>

@@ -34,5 +34,25 @@ export const BackendApi = {
                 console.log(e)
             }
         }
-    }
+    },
+    userId: {
+        getAll: async () => {
+            try {
+                const res = await axiosInstance.get('/userid')
+                return res.data
+            } 
+            catch (e) {
+                console.log(e)
+            }
+        },
+        getById: async (id) => {
+            try {
+                const res = await axiosInstance.get('/userid/' + id)
+                return res.data
+            } 
+            catch (e) {
+                console.log(e)
+            }
+        }
+    },
 }

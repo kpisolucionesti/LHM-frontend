@@ -9,12 +9,7 @@ export const PaymentProvider = ({ children }) => {
     const user = useUserContext()
 
     useEffect(() => {
-        BackendApi.payments.getAll().then(res => {
-            let uniqueData = res.filter((obj, index) => {
-                return index === res.findIndex(o => obj.account === o.account && obj.code === o.code)
-            }).filter(data => data.code === user.code)
-            setPayments(uniqueData)
-        })
+        BackendApi.payments.getAll().then(res => setPayments(res))
     },[user])
 
     return (

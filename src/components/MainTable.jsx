@@ -13,21 +13,22 @@ const MainTable = () => {
     const user = useUserContext() 
     const payments = usePaymentContext()
 
-    const fixedDate = (value) => {
-        const fixDate = value.map(data => { return { ...data, date: moment(data.date, 'MM/DD/YYYY').format("YYYY/MM/DD") }})
-        return fixDate
+    const filterUserPayments = (value) => {
+        let userPayments = value.filter((obj, index) => {
+            return index === value.findIndex(o => obj.account === o.account && obj.code === o.code)
+        }).filter(data => data.code === user.code).map(data => { return { ...data, date: moment(data.date, 'MM/DD/YYYY').format("YYYY/MM/DD") }})
+        return userPayments
     }
 
     useEffect(() => {
-        setData(fixedDate(payments))
-    },[payments, user])
+        setData(filterUserPayments(payments))
+    },[payments])
 
     const handleFilterStatus = useCallback((value) =>{
         if(value === '') {
-            setData(fixedDate(payments))
+            setData(filterUserPayments(payments))
         } else {
-            let fixedData = fixedDate(payments)
-            setData(fixedData.filter(data => data.status === value))
+            setData(filterUserPayments(payments).filter(data => data.status === value))
         }
     },[payments])
 
@@ -35,25 +36,30 @@ const MainTable = () => {
             {
                 accessorKey: 'date',
                 header: 'Fecha',
+                size: 50
             },
             {
                 accessorFn: (row) => `${row.classInvoice} ${row.invoice}`,
                 header: 'Factura',
                 Cell: ({ cell }) => (
                     <span>{cell.row.original.invoice === '' ? 'N/A' : cell.getValue()}</span>
-                )
+                ),
+                size: 50
             },
             {
                 accessorKey: 'account',
                 header: 'Cuenta',
+                size: 50
             },
             {
                 accessorKey: 'patient',
                 header: 'Paciente',
+                minSize: 100
             },
             {
                 accessorKey: 'client',
                 header: 'Cliente',
+                minSize: 100
             },
             {
                 accessorKey: 'status',
@@ -64,6 +70,10 @@ const MainTable = () => {
                         label={cell.getValue()}
                     />
                 )
+            },
+            {
+                accessorKey: 'doctorName',
+                header: 'Medico Tratante'
             }
         ],[]
     )

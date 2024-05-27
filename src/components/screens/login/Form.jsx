@@ -1,17 +1,37 @@
-import { Box, Button, TextField } from "@mui/material";
+import { Box, Button, TextField, Stack } from "@mui/material";
 import { useContext, useState } from "react";
-import UserContext from "../../../context/user-context";
+import AuthContext from "../../../context/auth-context";
 
 const LoginForm = () => {
-    const [value, setValue] = useState('')
+    const [values, setValues] = useState('')
+    const { login } = useContext(AuthContext)
 
-    const { login } = useContext(UserContext)
+    const handleValuesChange = (target) => {
+        setValues({...values, [target.name]:target.value})
+    }
+
+    console.log(values)
+
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        if(values.name !== '' && values.password !== ''){
+            login(values)
+        } else {
+            alert("Debe llenar todos los datos")
+        }
+    }
 
     return (
-        <Box>
-            <TextField variant="outlined" placeholder="Ingrese ID Medico" onChange={({target}) => setValue(target.value)}  />
-            <Button onClick={() => login(parseInt(value))} >Login</Button>
-        </Box>
+        <form onSubmit={handleSubmit}>
+            <Box>
+                <Stack spacing={1}>
+                    <TextField variant="outlined" name="username" value={values.name} placeholder="Ingrese Nombre de Usuario" onChange={({target}) => handleValuesChange(target)}  />
+                    <TextField variant="outlined" name="password" value={values.password} placeholder="Ingrese Clave" onChange={({target}) => handleValuesChange(target)}  />
+                    <Button variant="contained" color="success" type="submit" >Login</Button>
+                </Stack>
+            </Box>
+        </form>
     )
 }
 

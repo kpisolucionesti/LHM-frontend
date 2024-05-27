@@ -1,31 +1,28 @@
-import { createContext, useCallback, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { BackendApi } from "../services/BackendApi";
+import AuthContext from "./auth-context";
 
 const UserContext = createContext({});
 
 export const UserProvider = ({ children }) => {
     const [user, setUser] = useState({})
-    const [isAuthenticated, setIsAthenticated] = useState(false)
+    const { isAuthenticated, session } = useContext(AuthContext) 
 
     const checkUserData = useCallback((value) => {
-        let findUser = BackendApi.users.getById(value).then(res => { return res })
+        let findUser = BackendApi.users.getById(value.user_id).then(res => { return res })
         return findUser
     },[])
 
-    const login = useCallback((code) => {
-        checkUserData(code).then(res => {
-            setUser(res)
-            setIsAthenticated(true)
-        })
-    },[checkUserData])
-
-    const logout = () => {
-        setUser({})
-        setIsAthenticated(false)
-    }
+    useEffect(() => {
+        if(isAuthenticated){
+            checkUserData(session).then(res => {
+                setUser(res)
+            })
+        }
+    },[isAuthenticated, session, checkUserData])
 
     return (
-        <UserContext.Provider value={{ isAuthenticated, user, login, logout }}>
+        <UserContext.Provider value={{ isAuthenticated, user }}>
             {children}
         </UserContext.Provider>
     )

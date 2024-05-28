@@ -3,9 +3,9 @@ import { MaterialReactTable, useMaterialReactTable } from 'material-react-table'
 import { Chip } from '@mui/material';
 import moment from 'moment';
 import DetailModal from './DetailModal';
-import ActionFilter from './ActionFilter';
 import usePaymentContext from '../hooks/usePaymentContext';
 import useUserContext from '../hooks/useUserContext';
+import FilterOptionGroup from './FilterOptions';
 
 const MainTable = () => {
 
@@ -24,13 +24,20 @@ const MainTable = () => {
         setData(filterUserPayments(payments))
     },[payments])
 
-    const handleFilterStatus = useCallback((value) =>{
-        if(value === '') {
-            setData(filterUserPayments(payments))
-        } else {
-            setData(filterUserPayments(payments).filter(data => data.status === value))
+    const handleFilter = useCallback((statusValue, clientValue) => {
+        let filteredData = filterUserPayments(payments);
+        
+        if (statusValue !== '') {
+            filteredData = filteredData.filter(data => data.status === statusValue);
         }
-    },[payments])
+        if (clientValue === 'Particular') {
+            filteredData = filteredData.filter(data => data.client === 'PARTICULARES');
+        } else if (clientValue === 'Seguro') {
+            filteredData = filteredData.filter(data => data.client !== 'PARTICULARES');
+        }
+        
+        setData(filteredData);
+    }, [payments]);
 
     const columns = useMemo(() => [
             {
@@ -103,7 +110,7 @@ const MainTable = () => {
             variant: 'outlined',
         },
         renderTopToolbarCustomActions: ({ table }) => (
-            <ActionFilter handleFilterStatus={handleFilterStatus} />
+            <FilterOptionGroup handleFilter={handleFilter} />
         ),
         muiPaginationProps: {
             showRowsPerPage: false,

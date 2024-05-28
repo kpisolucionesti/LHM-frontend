@@ -53,6 +53,15 @@ export const BackendApi = {
             catch (e) {
                 console.log(e)
             }
-        }
+        },
+        update: async (id, data) => {
+            try {
+                const res = await axiosInstance.put('/userid/' + id, data)
+                return res.data
+            } 
+            catch (e) {
+                console.log(e)
+            }
+        },
     },
 }

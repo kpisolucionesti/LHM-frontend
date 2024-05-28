@@ -7,58 +7,52 @@ const ProfileCard = () => {
 
     const user = useUserContext()
     const payments = usePaymentContext()
+    const statusList = [
+        {
+            status: 'No Factura',
+            color: 'error'
+        },
+        {
+            status: 'Facturado',
+            color: 'warning'
+        },
+        {
+            status: 'Cobrado',
+            color: 'primary'
+        },
+        {
+            status: 'Liquidado',
+            color: 'success'
+        }
+    ]
 
-    const handleBalance = (filter) => {
-        const filterBalance = payments.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
+    const handleBalance = (value) => {
+        const filterBalance = payments.filter( data => data.code === user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
     }
 
-    const handleCountInvoice = (filter) => {
-        const filterCount = payments.filter(data => data.code === user.code && data.status === filter)
+    const handleCountInvoice = (value) => {
+        const filterCount = payments.filter(data => data.code === user.code && data.status === value)
         return filterCount.length
     }
-
-    const totalInvoice = payments.filter(data => data.code === user.code)
 
     return (
             <Card>
                 <CardContent>
-                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={totalInvoice.length} color="primary"  >
+                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={payments.filter(data => data.code === user.code).length} color="secondary"  >
                             <ReceiptIcon />
                     </Badge><span><b>TOTAL: </b> {payments.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
                     <List>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="error" badgeContent={handleCountInvoice('No Factura')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Factura")}`} />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="warning" badgeContent={handleCountInvoice('Facturado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`FACTURADO: ${handleBalance("Facturado")}`} />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="primary" badgeContent={handleCountInvoice('Cobrado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`COBRADO: ${handleBalance("Cobrado")}`} />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="success" badgeContent={handleCountInvoice('Liquidado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`LIQUIDADO: ${handleBalance("Liquidado")}`} />
-                        </ListItem>
+                        {statusList.map( (data, index) => (
+                            <ListItem key={index}>
+                                <ListItemIcon>
+                                    <Badge color={data.color} badgeContent={handleCountInvoice(data.status)} >
+                                        <ReceiptIcon />
+                                    </Badge>
+                                </ListItemIcon>
+                                <ListItemText primary={`${data.status.toUpperCase()}: ${handleBalance(data.status)}`} />
+                            </ListItem>
+                        ))}
                     </List>
                 </CardContent>
             </Card>

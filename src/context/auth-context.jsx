@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
         return usersList
     },[])
 
-    const handleAuthentiation = useCallback((id, value) => {
+    const handleAuthentication = useCallback((id, value) => {
         let authenticated = BackendApi.userId.update(id, value).then(res => { return res })
         return authenticated
     },[])
@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
             checkSession().then(res => {
                 let user = res.find(user => user.username === value.username && user.password === value.password)
                 if(user) {
-                    handleAuthentiation(user.id, {...user, authentication: true}).then(res => {
+                    handleAuthentication(user.id, {...user, authentication: true}).then(res => {
                         setSession(res)
                     })
                 } else {
@@ -31,10 +31,11 @@ export const AuthProvider = ({ children }) => {
                 }
             })
         }
-    },[checkSession, handleAuthentiation])
+    },[checkSession, handleAuthentication])
 
     const logout = () => {
-        handleAuthentiation(session.id, {...session, authentication: false})
+        handleAuthentication(session.id, {...session, authentication: false})
+        setSession({})
     }
 
     return (

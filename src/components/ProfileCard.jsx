@@ -1,101 +1,61 @@
-import { useContext, useState } from "react"
-import { Badge, Card, CardContent, CardHeader, createTheme, List, ListItem, ListItemIcon, ListItemText, ThemeProvider } from "@mui/material"
-import { useEffect } from "react"
-import { tableData, doctorTable } from "../data"
+import { Badge, Card, CardContent, List, ListItem, ListItemIcon, ListItemText } from "@mui/material"
 import ReceiptIcon from '@mui/icons-material/Receipt';
-import UserContext from "../context/user-context";
+import usePaymentContext from "../hooks/usePaymentContext";
+import useAuthContext from "../hooks/useAuth";
 
 const ProfileCard = () => {
 
-    const { user } = useContext(UserContext)
-
-    const theme = createTheme({
-        palette: {
-          facturado: {
-            main: '#E3D026',
-            light: '#E9DB5D',
-            dark: '#A29415',
-            contrastText: '#242105',
-          },
+    const auth = useAuthContext()
+    const payments = usePaymentContext()
+    const statusList = [
+        {
+            status: 'No Factura',
+            color: 'error'
         },
-      });
+        {
+            status: 'Facturado',
+            color: 'warning'
+        },
+        {
+            status: 'Cobrado',
+            color: 'primary'
+        },
+        {
+            status: 'Liquidado',
+            color: 'success'
+        }
+    ]
 
-    const [profileDoctor, setProfileDoctor] = useState({} || '')
-
-    useEffect(() => {
-        setProfileDoctor(doctorTable.find(data => data.code === user.code))
-    },[user.code])
-
-    const handleBalance = (filter) => {
-        const filterBalance = tableData.filter( data => data.code === user.code && data.status === filter ).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
+    const handleBalance = (value) => {
+        const filterBalance = payments.filter( data => data.code === auth.user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
     }
 
-    const handleCountInvoice = (filter) => {
-        const filterCount = tableData.filter(data => data.code === user.code && data.status === filter)
+    const handleCountInvoice = (value) => {
+        const filterCount = payments.filter(data => data.code === auth.user.code && data.status === value)
         return filterCount.length
     }
 
-    const totalInvoice = tableData.filter(data => data.code === user.code)
-
     return (
-        <ThemeProvider theme={theme}>
             <Card>
-                { typeof profileDoctor === 'object' ? (
-                    <CardHeader
-                        avatar={(
-                        <Badge badgeContent={totalInvoice.length} color="primary"  >
-                            <ReceiptIcon />
-                        </Badge> )}
-                        title={profileDoctor.fullName}
-                        subheader={profileDoctor.specialist}
-                    />
-                    ) : "" 
-                }
                 <CardContent>
-                { typeof profileDoctor === 'object' ? (
-                <>
-                    <p><b>TOTAL: </b> {tableData.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</p>
+                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={payments.filter(data => data.code === auth.user.code).length} color="secondary"  >
+                            <ReceiptIcon />
+                    </Badge><span><b>TOTAL: </b> {payments.filter( data => data.code === auth.user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
                     <List>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="error" badgeContent={handleCountInvoice('No Facturado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`NO FACTURADO: ${handleBalance("No Facturado")}`} secondary="HOLA" />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="facturado" badgeContent={handleCountInvoice('Facturado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`FACTURADO: ${handleBalance("Facturado")}`} />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="primary" badgeContent={handleCountInvoice('Cobrado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`COBRADO: ${handleBalance("Cobrado")}`} />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemIcon>
-                                <Badge color="success" badgeContent={handleCountInvoice('Liquidado')} >
-                                    <ReceiptIcon />
-                                </Badge>
-                            </ListItemIcon>
-                            <ListItemText primary={`LIQUIDADO: ${handleBalance("Liquidado")}`} />
-                        </ListItem>
+                        {statusList.map( (data, index) => (
+                            <ListItem key={index}>
+                                <ListItemIcon>
+                                    <Badge color={data.color} badgeContent={handleCountInvoice(data.status)} >
+                                        <ReceiptIcon />
+                                    </Badge>
+                                </ListItemIcon>
+                                <ListItemText primary={`${data.status.toUpperCase()}: ${handleBalance(data.status)}`} />
+                            </ListItem>
+                        ))}
                     </List>
-                </>
-                ) : <h2>{profileDoctor}</h2>
-                }
                 </CardContent>
             </Card>
-        </ThemeProvider>
     )
 }
 

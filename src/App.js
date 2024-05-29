@@ -5,6 +5,7 @@ import PrivateRoute from "./components/Routes/PrivateRoute";
 import PublicRoute from "./components/Routes/PublicRoute";
 import MainLayout from "./components/MainLayout";
 import LoginPage from "./components/screens/login/Page";
+import DashboardPage from "./components/screens/dashboard/Page";
 
 function App() {
 
@@ -20,8 +21,13 @@ function App() {
               } />
               <Route path="/dashboard" element={
                 <PrivateRoute>
-                    <MainLayout />
+                    <DashboardPage />
                   </PrivateRoute>
+              } />
+              <Route path="/edo-cuenta" element={
+                <PrivateRoute>
+                    <MainLayout />
+                </PrivateRoute>
               } />
             </Routes>
           </Router> 

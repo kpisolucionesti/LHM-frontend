@@ -10,19 +10,19 @@ const ProfileCard = () => {
     const statusList = [
         {
             status: 'No Factura',
-            color: 'error'
+            color: 'error.main'
         },
         {
             status: 'Facturado',
-            color: 'warning'
+            color: 'warning.main'
         },
         {
             status: 'Cobrado',
-            color: 'primary'
+            color: 'primary.main'
         },
         {
             status: 'Liquidado',
-            color: 'success'
+            color: 'success.main'
         }
     ]
 

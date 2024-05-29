@@ -6,14 +6,10 @@ const LoginForm = () => {
     const [values, setValues] = useState('')
     const { login } = useContext(AuthContext)
 
-    const handleValuesChange = (target) => {
-        setValues({...values, [target.name]:target.value})
-    }
-
     const handleSubmit = (event) => {
         event.preventDefault()
-        if(values.name !== '' && values.password !== ''){
-            login(values)
+        if(values !== ''){
+            login(parseInt(values))
         } else {
             alert("Debe llenar todos los datos")
         }
@@ -23,8 +19,7 @@ const LoginForm = () => {
         <form onSubmit={handleSubmit}>
             <Box>
                 <Stack spacing={1}>
-                    <TextField label="Usuario" variant="outlined" name="username" defaultValue={values.name || ''} placeholder="Ingrese Nombre de Usuario" onChange={({target}) => handleValuesChange(target)}  />
-                    <TextField label="Password" variant="outlined" name="password" defaultValue={values.password || ''} placeholder="Ingrese Clave" onChange={({target}) => handleValuesChange(target)}  />
+                    <TextField label="Usuario" variant="outlined" name="username" defaultValue={values.name || ''} placeholder="Ingrese Nombre de Usuario" onChange={({target}) => setValues(target.value)} />
                     <Button variant="contained" color="success" type="submit" >Login</Button>
                 </Stack>
             </Box>

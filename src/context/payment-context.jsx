@@ -1,16 +1,18 @@
 import { createContext, useEffect, useState } from "react";
 import { BackendApi } from "../services/BackendApi";
-import useUserContext from "../hooks/useUserContext";
+import useAuthContext from "../hooks/useAuth";
 
 const PaymentContext = createContext([]);
 
 export const PaymentProvider = ({ children }) => {
     const [payments, setPayments] = useState([])
-    const user = useUserContext()
+    const auth = useAuthContext()
 
     useEffect(() => {
-        BackendApi.payments.getAll().then(res => setPayments(res))
-    },[user])
+        if(auth.isAuthenticated){
+            BackendApi.payments.getAll().then(res => setPayments(res))
+        }
+    },[auth])
 
     return (
         <PaymentContext.Provider value={{ payments }}>

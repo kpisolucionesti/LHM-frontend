@@ -2,21 +2,21 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { MaterialReactTable, useMaterialReactTable } from 'material-react-table';
 import { Chip } from '@mui/material';
 import moment from 'moment';
-import DetailModal from './DetailModal';
+import useAuthContext from '../hooks/useAuth';
 import usePaymentContext from '../hooks/usePaymentContext';
-import useUserContext from '../hooks/useUserContext';
+import DetailModal from './DetailModal';
 import FilterOptionGroup from './FilterOptions';
 
 const MainTable = () => {
 
     const [data, setData] = useState([])
-    const user = useUserContext() 
+    const auth = useAuthContext() 
     const payments = usePaymentContext()
 
     const filterUserPayments = (value) => {
         let userPayments = value.filter((obj, index) => {
             return index === value.findIndex(o => obj.account === o.account && obj.code === o.code)
-        }).filter(data => data.code === user.code).map(data => { return { ...data, date: moment(data.date, 'MM/DD/YYYY').format("YYYY/MM/DD") }})
+        }).filter(data => data.code === auth.user.code).map(data => { return { ...data, date: moment(data.date, 'MM/DD/YYYY').format("YYYY/MM/DD") }})
         return userPayments
     }
 

@@ -1,17 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { UserProvider } from "./context/user-context";
 import { PaymentProvider } from "./context/payment-context";
-import MainLayout from "./components/MainLayout";
-import LoginPage from "./components/screens/login/Page";
+import { AuthProvider } from "./context/auth-context";
 import PrivateRoute from "./components/Routes/PrivateRoute";
 import PublicRoute from "./components/Routes/PublicRoute";
-import { AuthProvider } from "./context/auth-context";
+import MainLayout from "./components/MainLayout";
+import LoginPage from "./components/screens/login/Page";
 
 function App() {
 
   return (
     <AuthProvider>
-      <UserProvider>
         <PaymentProvider>
           <Router>
             <Routes >
@@ -28,7 +26,6 @@ function App() {
             </Routes>
           </Router> 
         </PaymentProvider>
-      </UserProvider>
     </AuthProvider>
   );
 }

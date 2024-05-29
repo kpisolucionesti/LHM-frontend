@@ -8,7 +8,7 @@ const useAuthContext = () => {
         throw new Error('useUserContext fue usado fuera del proveedor')
     }
 
-    return context.session
+    return context
 }
 
 export default useAuthContext

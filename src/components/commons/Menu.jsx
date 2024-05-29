@@ -1,11 +1,11 @@
 import { AppBar, IconButton, MenuItem, Toolbar, Typography } from '@mui/material'
 import { AccountCircle } from '@mui/icons-material'
-import useUserContext from '../../hooks/useUserContext'
 import LogoutButton from './user/Logout'
+import useAuthContext from '../../hooks/useAuth'
 
 const MenuBar = () => {
 
-    const user = useUserContext()
+    const user = useAuthContext()
     const pages = ['Dashboard', 'Edo. Cuenta', 'Condominio']
 
 

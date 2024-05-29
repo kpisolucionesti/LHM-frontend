@@ -1,11 +1,11 @@
 import { Badge, Card, CardContent, List, ListItem, ListItemIcon, ListItemText } from "@mui/material"
 import ReceiptIcon from '@mui/icons-material/Receipt';
-import useUserContext from "../hooks/useUserContext";
 import usePaymentContext from "../hooks/usePaymentContext";
+import useAuthContext from "../hooks/useAuth";
 
 const ProfileCard = () => {
 
-    const user = useUserContext()
+    const auth = useAuthContext()
     const payments = usePaymentContext()
     const statusList = [
         {
@@ -27,21 +27,21 @@ const ProfileCard = () => {
     ]
 
     const handleBalance = (value) => {
-        const filterBalance = payments.filter( data => data.code === user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
+        const filterBalance = payments.filter( data => data.code === auth.user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
         return filterBalance
     }
 
     const handleCountInvoice = (value) => {
-        const filterCount = payments.filter(data => data.code === user.code && data.status === value)
+        const filterCount = payments.filter(data => data.code === auth.user.code && data.status === value)
         return filterCount.length
     }
 
     return (
             <Card>
                 <CardContent>
-                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={payments.filter(data => data.code === user.code).length} color="secondary"  >
+                    <Badge sx={{ ml: 2, mr: 3 }} badgeContent={payments.filter(data => data.code === auth.user.code).length} color="secondary"  >
                             <ReceiptIcon />
-                    </Badge><span><b>TOTAL: </b> {payments.filter( data => data.code === user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
+                    </Badge><span><b>TOTAL: </b> {payments.filter( data => data.code === auth.user.code).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)}</span>
                     <List>
                         {statusList.map( (data, index) => (
                             <ListItem key={index}>

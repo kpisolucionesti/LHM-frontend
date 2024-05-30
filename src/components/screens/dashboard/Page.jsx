@@ -1,13 +1,19 @@
-import { Grid } from "@mui/material"
+import { Box, Grid, Typography } from "@mui/material"
 import DashboardInfo from "./Info"
+import MainTable from "../../MainTable"
 
 const DashboardPage = () => {
 
     return(
-        <Grid>
-            <h1>Dashboard</h1>
-            <DashboardInfo />
-        </Grid>
+        <Box sx={{ width: '100%' }} >
+            <Typography variant="h4">Dashboard</Typography>
+            <Grid xs={12} sx={{ marginY: 1}} >
+                <DashboardInfo />
+            </Grid>
+            <Grid sx={{ marginTop: 2 }}>
+                <MainTable />
+            </Grid>
+        </Box>
     )
 }
 

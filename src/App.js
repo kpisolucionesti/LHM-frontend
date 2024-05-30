@@ -3,9 +3,8 @@ import { PaymentProvider } from "./context/payment-context";
 import { AuthProvider } from "./context/auth-context";
 import PrivateRoute from "./components/Routes/PrivateRoute";
 import PublicRoute from "./components/Routes/PublicRoute";
-import MainLayout from "./components/MainLayout";
 import LoginPage from "./components/screens/login/Page";
-import DashboardPage from "./components/screens/dashboard/Page";
+import Layout from "./components/commons/Layout";
 
 function App() {
 
@@ -21,13 +20,8 @@ function App() {
               } />
               <Route path="/dashboard" element={
                 <PrivateRoute>
-                    <DashboardPage />
+                    <Layout />
                   </PrivateRoute>
-              } />
-              <Route path="/edo-cuenta" element={
-                <PrivateRoute>
-                    <MainLayout />
-                </PrivateRoute>
               } />
             </Routes>
           </Router> 

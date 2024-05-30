@@ -35,8 +35,8 @@ const DashboardInfo =  () => {
     ]
 
     const handleBalance = (value) => {
-        const filterBalance = payments.filter( data => data.code === auth.user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseInt(price), 0)
-        return filterBalance
+        const filterBalance = payments.filter( data => data.code === auth.user.code && data.status === value).map( data => ({ price: data.price }) ).reduce(( sum, { price } ) => sum + parseFloat(price), 0)
+        return filterBalance.toFixed(2)
     }
 
     const handleCountInvoice = (value) => {
@@ -48,8 +48,8 @@ const DashboardInfo =  () => {
         <ThemeProvider theme={theme}>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }} >
                 { status.map((status, index) => (
-                <Paper key={index} elevation={8} sx={{ width: 1/5, padding: 2, marginX: 1, backgroundColor: status.color, color: 'white' }}>
-                    <Typography variant="h6" >
+                <Paper key={index} elevation={5} sx={{ width: 1/5, padding: 2, marginX: 3, backgroundColor: status.color, color: 'white' }}>
+                    <Typography variant="h6" sx={{ justifyContent: 'space-between', display: 'flex'}} >
                         {status.name}
                         <Badge sx={{ marginX: 1 }} badgeContent={handleCountInvoice(status.name)} color="secondary">
                             <ReceiptIcon />

@@ -1,23 +1,8 @@
-import { styled, ToggleButton, ToggleButtonGroup } from "@mui/material"
+import { ToggleButtonGroup } from "@mui/material"
 import { useState } from "react"
-
-const CustomToggleButton = styled(ToggleButton)(({ selectedcolor }) => ({
-    "&.Mui-selected": {
-        color: "#fff",
-        backgroundColor: selectedcolor,
-         "&:hover": {
-          color: "#fff",
-          backgroundColor: selectedcolor,
-         },
-       },
-       "&:hover": {
-        color: "#fff",
-        backgroundColor: "#474f52",
-      },
-}))
+import CustomToggleButton from "./ToggleButtonColor"
 
 const StatusFilterButtons = ({ setStatus }) => {
-
     const [selected, setSelected] = useState('')
 
     const handleSelected = (event, value) => {

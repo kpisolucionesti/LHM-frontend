@@ -7,7 +7,7 @@ const DashboardPage = () => {
     return(
         <Box sx={{ width: '100%' }} >
             <Typography variant="h4">Dashboard</Typography>
-            <Grid xs={12} sx={{ marginY: 1}} >
+            <Grid sx={{ marginY: 1}} >
                 <DashboardInfo />
             </Grid>
             <Grid sx={{ marginTop: 2 }}>

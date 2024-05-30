@@ -1,20 +1,6 @@
-import { styled, ToggleButton, ToggleButtonGroup } from "@mui/material"
+import { ToggleButtonGroup } from "@mui/material"
 import { useState } from "react"
-
-const CustomToggleButton = styled(ToggleButton)(({ selectedcolor }) => ({
-    "&.Mui-selected": {
-        color: "#fff",
-        backgroundColor: selectedcolor,
-         "&:hover": {
-          color: "#fff",
-          backgroundColor: selectedcolor,
-         },
-       },
-       "&:hover": {
-        color: "#fff",
-        backgroundColor: "#474f52",
-      },
-}))
+import CustomToggleButton from "./ToggleButtonColor"
 
 const ClientFilterButtons = ({ setClient }) => {
 
@@ -29,15 +15,15 @@ const ClientFilterButtons = ({ setClient }) => {
 
     return (
         <ToggleButtonGroup
-            color='primary'
             value={selected}
             exclusive
             onChange={handleSelected}
             size="small"
+            sx={{ backgroudColor: "#A0DEFF" }}
         >
             <CustomToggleButton selectedcolor="#1d1c21" value=''>Todos</CustomToggleButton>
-            <CustomToggleButton selectedcolor="#2C4E80" value='Particular'>Particular</CustomToggleButton>
-            <CustomToggleButton selectedcolor="#FFC55A" value='Seguro'>Seguro</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#1d1c21" value='Particular'>Particular</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#1d1c21" value='Seguro'>Seguro</CustomToggleButton>
 
         </ToggleButtonGroup>
     )

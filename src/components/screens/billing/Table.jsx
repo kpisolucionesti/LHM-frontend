@@ -5,7 +5,7 @@ import moment from 'moment';
 import useAuthContext from '../../../hooks/useAuth';
 import usePaymentContext from '../../../hooks/usePaymentContext';
 import BillingDetailModal from './detail/Modal';
-import FilterOptionGroup from './filters/TabsOptions';
+import FilterOptionGroup from './filters/FilterOptions';
 
 const BillingTable= () => {
 
@@ -23,21 +23,6 @@ const BillingTable= () => {
     useEffect(() => {
         setData(filterUserPayments(payments))
     },[payments])
-
-    const handleFilter = useCallback((statusValue, clientValue) => {
-        let filteredData = filterUserPayments(payments);
-        
-        if (statusValue !== '') {
-            filteredData = filteredData.filter(data => data.status === statusValue);
-        }
-        if (clientValue === 'Particular') {
-            filteredData = filteredData.filter(data => data.client === 'PARTICULARES');
-        } else if (clientValue === 'Seguro') {
-            filteredData = filteredData.filter(data => data.client !== 'PARTICULARES');
-        }
-        
-        setData(filteredData);
-    }, [payments]);
 
     const columns = useMemo(() => [
             {
@@ -109,7 +94,7 @@ const BillingTable= () => {
             variant: 'outlined',
         },
         renderTopToolbarCustomActions: ({ table }) => (
-            <FilterOptionGroup handleFilter={handleFilter} />
+            <FilterOptionGroup setData={setData} filterUserPayments={filterUserPayments} />
         ),
         muiPaginationProps: {
             showRowsPerPage: false,

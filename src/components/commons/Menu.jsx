@@ -1,26 +1,22 @@
 import { AppBar, IconButton, MenuItem, Toolbar, Typography } from '@mui/material'
 import { AccountCircle } from '@mui/icons-material'
-import LogoutButton from './user/Logout'
+import LogoutButton from './Logout'
 import useAuthContext from '../../hooks/useAuth'
 
 const MenuBar = () => {
 
-    const user = useAuthContext()
-    const pages = ['Dashboard', 'Edo. Cuenta', 'Condominio']
+    const auth = useAuthContext()
 
 
     return (
-        <AppBar position="static" sx={{ marginX: 0 }} >
+        <AppBar position="fixed" sx={{ marginX: 0 }} >
             <Toolbar>
                 <IconButton size='large' color='inherit' >
                     <AccountCircle />
                 </IconButton>
                 <Typography variant="h6" sx={{ flexGrow: 1 }} >
-                    {user.firstName} {user.lastName} 
+                    {auth.user.firstName} {auth.user.lastName} 
                 </Typography>
-                { pages.map((page) => (
-                    <MenuItem key={page}>{page}</MenuItem>
-                ))}
                 <LogoutButton />
             </Toolbar>
         </AppBar>

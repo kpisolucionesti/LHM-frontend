@@ -19,11 +19,10 @@ const ClientFilterButtons = ({ setClient }) => {
             exclusive
             onChange={handleSelected}
             size="small"
-            sx={{ backgroudColor: "#A0DEFF" }}
         >
-            <CustomToggleButton selectedcolor="#1d1c21" value=''>Todos</CustomToggleButton>
-            <CustomToggleButton selectedcolor="#1d1c21" value='Particular'>Particular</CustomToggleButton>
-            <CustomToggleButton selectedcolor="#1d1c21" value='Seguro'>Seguro</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#686D76" value=''>Todos</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#686D76" value='Particular'>Particular</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#686D76" value='Seguro'>Seguro</CustomToggleButton>
 
         </ToggleButtonGroup>
     )

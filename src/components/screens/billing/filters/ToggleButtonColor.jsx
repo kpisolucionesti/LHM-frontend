@@ -4,6 +4,7 @@ const CustomToggleButton = styled(ToggleButton)(({ selectedcolor }) => ({
     "&.Mui-selected": {
         color: "#fff",
         backgroundColor: selectedcolor,
+        borderColor: selectedcolor,
          "&:hover": {
           color: "#fff",
           backgroundColor: selectedcolor,
@@ -11,12 +12,12 @@ const CustomToggleButton = styled(ToggleButton)(({ selectedcolor }) => ({
        },
        "&:hover": {
         color: "#fff",
-        backgroundColor: "#474f52",
+        backgroundColor: "#B4B4B8",
       },
       fontSize: 16,
       fontWeight: 'bold',
-      color: "#1d1c21",
-      borderColor: "#1d1c21"
+      color: "#B4B4B8",
+      borderColor: "#B4B4B8"
 }))
 
 export default CustomToggleButton

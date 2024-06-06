@@ -20,7 +20,7 @@ const StatusFilterButtons = ({ setStatus }) => {
             onChange={handleSelected}
             size="small"
         >
-            <CustomToggleButton selectedcolor="#1d1c21" value=''>Todos</CustomToggleButton>
+            <CustomToggleButton selectedcolor="#686D76" value=''>Todos</CustomToggleButton>
             <CustomToggleButton selectedcolor="#d32f2f" value='No Facturado'>No Facturado</CustomToggleButton>
             <CustomToggleButton selectedcolor="#f57c00" value='Facturado'>Facturado</CustomToggleButton>
             <CustomToggleButton selectedcolor="#0288d1" value='Cobrado'>Cobrado</CustomToggleButton>

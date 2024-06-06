@@ -40,7 +40,7 @@ const FilterOptionGroup = ({ setData, filterUserPayments }) => {
             }}
         >
             <StatusFilterButtons setStatus={setStatus} />
-            <Divider flexItem orientation="vertical" sx={{ mx: 1, my: 1, borderRightWidth: 5, borderColor: 'black'  }} />
+            <Divider flexItem orientation="vertical" sx={{ mx: 1, my: 1, borderRightWidth: 5, borderColor: '#686D76'  }} />
             <ClientFilterButtons setClient={setClient} />
         </Paper>
     )
